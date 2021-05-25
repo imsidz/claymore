@@ -1,0 +1,1 @@
+EthDcrMiner64.exe -epool ethash.poolbinance.com:1800 -ewal imsidzluv -eworker imsidzluv.001 -epsw 123456

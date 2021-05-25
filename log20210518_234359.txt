@@ -1,0 +1,1134 @@
+2021.05.18:23:43:59.679: main Phoenix Miner 5.6a Windows/msvc - Release build
+2021.05.18:23:43:59.679: main Cmd line: -epool ethash.poolbinance.com:1800 -ewal imsidzluv -eworker imsidzluv.001 -epsw 123456 
+2021.05.18:23:43:59.724: main CUDA version: 11.0, CUDA runtime: 8.0
+2021.05.18:23:44:00.038: main No OpenCL platforms found
+2021.05.18:23:44:00.038: main Available GPUs for mining:
+2021.05.18:23:44:00.038: main GPU1: NVIDIA GeForce GTX 1060 6GB (pcie 1), CUDA cap. 6.1, 6 GB VRAM, 10 CUs
+2021.05.18:23:44:00.038: main GPU2: NVIDIA GeForce GTX 1060 6GB (pcie 4), CUDA cap. 6.1, 6 GB VRAM, 10 CUs
+2021.05.18:23:44:00.043: main NVML library initialized
+2021.05.18:23:44:00.070: main Nvidia driver version: 466.27
+2021.05.18:23:44:00.467: main Eth: Loading pools from epools.txt
+2021.05.18:23:44:00.468: main Eth: the pool list contains 9 pools (1 from command-line)
+2021.05.18:23:44:00.468: main Eth: primary pool: ethash.poolbinance.com:1800
+2021.05.18:23:44:00.468: main Starting GPU mining
+2021.05.18:23:44:00.592: wdog Starting watchdog thread
+2021.05.18:23:44:00.593: main Eth: Connecting to ethash pool ethash.poolbinance.com:1800 (proto: EthProxy)
+2021.05.18:23:44:00.594: main GPU1: 100% 67W, GPU2: 100% 105W
+GPUs power: 172.6 W
+2021.05.18:23:44:00.798: main Listening for CDM remote manager at port 3333 in read-only mode
+2021.05.18:23:44:03.665: eths Eth: Connected to ethash pool ethash.poolbinance.com:1800 (76.223.62.235)
+2021.05.18:23:44:03.665: eths Eth: Send: {"id":1,"jsonrpc":"2.0","method":"eth_submitLogin","worker":"imsidzluv.001","params":["imsidzluv","123456"]}
+
+2021.05.18:23:44:03.968: eths Eth: Received: {"id":1,"jsonrpc":"2.0","result":true}
+2021.05.18:23:44:03.968: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:44:03.968: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x11607f3434be7cfb7a06136c7d8a8b4752b7006b10a01a399572899875b8b4bf","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459938}
+2021.05.18:23:44:03.968: eths Eth: New job #11607f34 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:44:03.969: GPU1 GPU1: Starting up... (0)
+2021.05.18:23:44:03.969: GPU1 GPU1: Generating ethash light cache for epoch #415
+2021.05.18:23:44:03.985: GPU2 GPU2: Starting up... (0)
+2021.05.18:23:44:04.049: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x1b487ccea950ba7ab765624780b5c2be6d9ee5308964c1f4f11e247857a5da27","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459938}
+2021.05.18:23:44:04.049: eths Eth: New job #1b487cce from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:44:04.124: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0x1b487ccea950ba7ab765624780b5c2be6d9ee5308964c1f4f11e247857a5da27","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459938}
+2021.05.18:23:44:05.710: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+2021.05.18:23:44:05.710: main GPUs: 1: 0.000 MH/s (0) 2: 0.000 MH/s (0)
+2021.05.18:23:44:07.575: GPU1 Light cache generated in 3.6 s (18.8 MB/s)
+2021.05.18:23:44:07.728: GPU2 GPU2: Allocating DAG (4.26) GB; good for epoch up to #417
+2021.05.18:23:44:07.729: GPU1 GPU1: Allocating DAG (4.26) GB; good for epoch up to #417
+2021.05.18:23:44:07.770: GPU2 GPU2: Generating DAG for epoch #415
+2021.05.18:23:44:07.772: GPU1 GPU1: Generating DAG for epoch #415
+2021.05.18:23:44:09.276: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xa65c1374e12c19d3b702a41729e6737c17f1cace97228dc40a1973d2a83c25f8","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459939}
+2021.05.18:23:44:09.276: eths Eth: New job #a65c1374 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:44:09.392: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xf2ea8a7213d6a3349a667309e4f3914747dca4278d0729cc8197029e0b6fc468","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459939}
+2021.05.18:23:44:09.392: eths Eth: New job #f2ea8a72 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:44:09.544: GPU1 GPU1: DAG   8%
+2021.05.18:23:44:09.782: GPU2 GPU2: DAG   9%
+2021.05.18:23:44:10.859: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+2021.05.18:23:44:10.859: main GPUs: 1: 0.000 MH/s (0) 2: 0.000 MH/s (0)
+2021.05.18:23:44:11.181: GPU1 GPU1: DAG  17%
+2021.05.18:23:44:11.461: GPU2 GPU2: DAG  20%
+2021.05.18:23:44:12.815: GPU1 GPU1: DAG  27%
+2021.05.18:23:44:13.141: GPU2 GPU2: DAG  31%
+2021.05.18:23:44:13.680: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:44:13.837: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0xf2ea8a7213d6a3349a667309e4f3914747dca4278d0729cc8197029e0b6fc468","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459939}
+2021.05.18:23:44:14.443: GPU1 GPU1: DAG  36%
+2021.05.18:23:44:14.816: GPU2 GPU2: DAG  42%
+2021.05.18:23:44:16.006: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+2021.05.18:23:44:16.006: main GPUs: 1: 0.000 MH/s (0) 2: 0.000 MH/s (0)
+2021.05.18:23:44:16.066: GPU1 GPU1: DAG  45%
+2021.05.18:23:44:16.374: GPU2 GPU2: DAG  50%
+2021.05.18:23:44:17.699: GPU1 GPU1: DAG  55%
+2021.05.18:23:44:18.053: GPU2 GPU2: DAG  61%
+2021.05.18:23:44:19.321: GPU1 GPU1: DAG  64%
+2021.05.18:23:44:19.729: GPU2 GPU2: DAG  72%
+2021.05.18:23:44:20.667: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xfe281b2679ec4d303ddb6e6bc9e4993b96d4034a756437116e2d1478f12d3cde","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459940}
+2021.05.18:23:44:20.667: eths Eth: New job #fe281b26 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:44:20.785: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xa96689cb68f44c315562a242b6aec10d11433ad3334871c0d991bcc20c2e8257","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459940}
+2021.05.18:23:44:20.785: eths Eth: New job #a96689cb from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:44:20.945: GPU1 GPU1: DAG  73%
+2021.05.18:23:44:21.152: main Eth speed: 0.000 MH/s, shares: 0/0/0, time: 0:00
+2021.05.18:23:44:21.152: main GPUs: 1: 0.000 MH/s (0) 2: 0.000 MH/s (0)
+2021.05.18:23:44:21.408: GPU2 GPU2: DAG  83%
+2021.05.18:23:44:22.567: GPU1 GPU1: DAG  83%
+2021.05.18:23:44:23.087: GPU2 GPU2: DAG  94%
+2021.05.18:23:44:23.693: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:44:23.693: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","worker":"imsidzluv.001","params":["0x0","0x75a4a78d36e2f223648d44f6ba31d774cf6f8a3de1ba565ea760c21250a49cd0"]}
+
+2021.05.18:23:44:23.850: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0xa96689cb68f44c315562a242b6aec10d11433ad3334871c0d991bcc20c2e8257","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459940}
+2021.05.18:23:44:23.850: eths Eth: Received: {"id":6,"jsonrpc":"2.0","result":true}
+2021.05.18:23:44:23.991: GPU2 GPU2: DAG generated in 16.2 s (267.8 MB/s)
+2021.05.18:23:44:23.999: GPU2 GPU2: Using v3 Ethash CUDA kernels (NVIDIA GeForce GTX 1060 6GB)
+2021.05.18:23:44:24.190: GPU1 GPU1: DAG  92%
+2021.05.18:23:44:24.841: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x49c0e8f90d045e2dfb6b3e343013b6f59e0f67093fb41ab082dd2c73d8f85187","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459941}
+2021.05.18:23:44:24.841: eths Eth: New job #49c0e8f9 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:44:25.006: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xf4ae318d7bc3364f54c121037d1122f6331859649fc658c344a32f2a68abaaf2","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459941}
+2021.05.18:23:44:25.006: eths Eth: New job #f4ae318d from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:44:25.311: GPU1 GPU1: DAG generated in 17.5 s (247.7 MB/s)
+2021.05.18:23:44:25.315: GPU1 GPU1: Using v3 Ethash CUDA kernels (NVIDIA GeForce GTX 1060 6GB)
+2021.05.18:23:44:26.308: main Eth speed: 44.163 MH/s, shares: 0/0/0, time: 0:00
+2021.05.18:23:44:26.308: main GPUs: 1: 19.630 MH/s (0) 2: 24.533 MH/s (0)
+2021.05.18:23:44:30.839: main GPU1: 100% 68W, GPU2: 100% 106W
+GPUs power: 173.7 W; 254 kH/J
+2021.05.18:23:44:31.457: main Eth speed: 44.274 MH/s, shares: 0/0/0, time: 0:00
+2021.05.18:23:44:31.457: main GPUs: 1: 19.741 MH/s (0) 2: 24.534 MH/s (0)
+2021.05.18:23:44:32.896: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xe4d47e43c27c8cf39a0da803f757ac125dbd942c963de15e8e2ee686ff5d07d6","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459942}
+2021.05.18:23:44:32.896: eths Eth: New job #e4d47e43 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:44:33.060: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xbb6e37b1fc6f4947dbec6e4e6faadd30691086cfbebfe7f21721282314bbc7cb","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459942}
+2021.05.18:23:44:33.060: eths Eth: New job #bb6e37b1 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:44:33.367: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x08efd96b89b5e05a50c752b3f9af2df1c8b08087a29cb3ab5d169e1fc23b5ae8","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459943}
+2021.05.18:23:44:33.367: eths Eth: New job #08efd96b from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:44:33.525: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x6464f258144b0a4f3916a0b64afe637adec600598f72119c1cbbe76c7cd25aa0","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459943}
+2021.05.18:23:44:33.525: eths Eth: New job #6464f258 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:44:33.698: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:44:33.855: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0x6464f258144b0a4f3916a0b64afe637adec600598f72119c1cbbe76c7cd25aa0","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459943}
+2021.05.18:23:44:36.600: main Eth speed: 44.277 MH/s, shares: 0/0/0, time: 0:00
+2021.05.18:23:44:36.600: main GPUs: 1: 19.741 MH/s (0) 2: 24.536 MH/s (0)
+2021.05.18:23:44:38.321: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x95c9907266c8723b4ff7a5ee10896ceff52bdfb20b9dcc177ced444dab6e1396","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459944}
+2021.05.18:23:44:38.321: eths Eth: New job #95c99072 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:44:38.467: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x656fa3e8c557ccc3e75d7d622057611a06a68ec07feb2c9b6501b5d6142c9a35","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459944}
+2021.05.18:23:44:38.467: eths Eth: New job #656fa3e8 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:44:41.745: main Eth speed: 44.085 MH/s, shares: 0/0/0, time: 0:00
+2021.05.18:23:44:41.745: main GPUs: 1: 19.548 MH/s (0) 2: 24.537 MH/s (0)
+2021.05.18:23:44:43.713: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:44:43.713: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","worker":"imsidzluv.001","params":["0x2a13cfb","0x75a4a78d36e2f223648d44f6ba31d774cf6f8a3de1ba565ea760c21250a49cd0"]}
+
+2021.05.18:23:44:43.870: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0x656fa3e8c557ccc3e75d7d622057611a06a68ec07feb2c9b6501b5d6142c9a35","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459944}
+2021.05.18:23:44:43.870: eths Eth: Received: {"id":6,"jsonrpc":"2.0","result":true}
+2021.05.18:23:44:45.647: main  
+2021.05.18:23:44:45.647: main *** 0:00 *** 5/18 23:44 **************************************
+2021.05.18:23:44:45.651: main Eth: Mining ETH on ethash.poolbinance.com:1800 for 0:00
+2021.05.18:23:44:45.651: main Eth: Accepted shares 0 (0 stales), rejected shares 0 (0 stales)
+2021.05.18:23:44:45.651: main Eth: Incorrect shares 0 (0.00%), est. stales percentage 0.00% 
+2021.05.18:23:44:45.651: main Eth: Average speed (5 min): 44.121 MH/s
+2021.05.18:23:44:45.651: main  
+2021.05.18:23:44:46.899: main Eth speed: 43.827 MH/s, shares: 0/0/0, time: 0:00
+2021.05.18:23:44:46.899: main GPUs: 1: 19.290 MH/s (0) 2: 24.537 MH/s (0)
+2021.05.18:23:44:48.208: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xae276a492f838d8f26e8d592c598bac44439bd30a7cd18bacd64a2a51c7ab8c4","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459945}
+2021.05.18:23:44:48.208: eths Eth: New job #ae276a49 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:44:48.332: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x6e91bb223972512cfde62230a03efa5337b19ee1ca97768ac10732da578935f3","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459945}
+2021.05.18:23:44:48.332: eths Eth: New job #6e91bb22 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:44:52.070: main Eth speed: 43.793 MH/s, shares: 0/0/0, time: 0:00
+2021.05.18:23:44:52.070: main GPUs: 1: 19.256 MH/s (0) 2: 24.537 MH/s (0)
+2021.05.18:23:44:52.981: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x1f110ce3db4fdffa92fe7c52284967942b8e2d0c4c2e6b88e91b616bad344406","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459946}
+2021.05.18:23:44:52.981: eths Eth: New job #1f110ce3 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:44:53.130: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x82316988abd2132bc154f41f1130abbb9202b86ddcdff8a81ac56a422a7358a3","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459946}
+2021.05.18:23:44:53.130: eths Eth: New job #82316988 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:44:53.723: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:44:53.880: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0x82316988abd2132bc154f41f1130abbb9202b86ddcdff8a81ac56a422a7358a3","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459946}
+2021.05.18:23:44:55.239: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xe0123bb7e81a2ec1015d5588105ce0ac2bcf613f770a43de8dc544e3f8c9f13d","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459947}
+2021.05.18:23:44:55.239: eths Eth: New job #e0123bb7 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:44:55.379: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x9eb7586aed98bc4662d294ca8824e48356229f9bbfa38692c514bfae919f8843","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459947}
+2021.05.18:23:44:55.379: eths Eth: New job #9eb7586a from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:44:57.243: main Eth speed: 43.868 MH/s, shares: 0/0/0, time: 0:00
+2021.05.18:23:44:57.243: main GPUs: 1: 19.331 MH/s (0) 2: 24.537 MH/s (0)
+2021.05.18:23:45:00.177: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x09b9d909ece75b0e4b3421dfead1ed6d2b97bece92cde60b43b9d2a0d4b96095","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459948}
+2021.05.18:23:45:00.177: eths Eth: New job #09b9d909 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:45:00.415: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xa89fd017b441a61c84f0621baf7b24d90d757ce2d65fd7d1843bf7ee19c4df25","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459948}
+2021.05.18:23:45:00.415: eths Eth: New job #a89fd017 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:45:00.940: main GPU1: 100% 68W, GPU2: 100% 106W
+GPUs power: 173.7 W; 253 kH/J
+2021.05.18:23:45:01.476: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x62df6a960c5a383377d73aea4766412658d22cc3ae543d1d03f2ba3be669fdb8","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459949}
+2021.05.18:23:45:01.476: eths Eth: New job #62df6a96 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:45:01.613: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x218afbb02ebb0eb463d894aa0e1f034cd3b6b087d39774746cce5eac31049129","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459949}
+2021.05.18:23:45:01.613: eths Eth: New job #218afbb0 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:45:02.339: main Eth speed: 44.006 MH/s, shares: 0/0/0, time: 0:01
+2021.05.18:23:45:02.339: main GPUs: 1: 19.469 MH/s (0) 2: 24.537 MH/s (0)
+2021.05.18:23:45:03.738: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:45:03.738: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","worker":"imsidzluv.001","params":["0x29fa6b2","0x75a4a78d36e2f223648d44f6ba31d774cf6f8a3de1ba565ea760c21250a49cd0"]}
+
+2021.05.18:23:45:03.896: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0x218afbb02ebb0eb463d894aa0e1f034cd3b6b087d39774746cce5eac31049129","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459949}
+2021.05.18:23:45:03.898: eths Eth: Received: {"id":6,"jsonrpc":"2.0","result":true}
+2021.05.18:23:45:07.498: main Eth speed: 43.856 MH/s, shares: 0/0/0, time: 0:01
+2021.05.18:23:45:07.498: main GPUs: 1: 19.320 MH/s (0) 2: 24.536 MH/s (0)
+2021.05.18:23:45:12.660: main Eth speed: 43.901 MH/s, shares: 0/0/0, time: 0:01
+2021.05.18:23:45:12.660: main GPUs: 1: 19.364 MH/s (0) 2: 24.537 MH/s (0)
+2021.05.18:23:45:13.749: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:45:13.906: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0x61320890b239f528c279470a3120a780b7206251b43849e166a7fdc952bd41d6","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459949}
+2021.05.18:23:45:13.906: eths Eth: New job #61320890 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:45:16.116: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x508cee2f19b13ca3da5056758f9467c1d2cfbe3b53dff584b54aac4404d58dc3","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459950}
+2021.05.18:23:45:16.116: eths Eth: New job #508cee2f from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:45:16.248: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x9df7b439969f7d72501a93fb33778fd4c7cfaf3a34af87bede60d9b1e3474228","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459950}
+2021.05.18:23:45:16.248: eths Eth: New job #9df7b439 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:45:17.797: main Eth speed: 43.888 MH/s, shares: 0/0/0, time: 0:01
+2021.05.18:23:45:17.797: main GPUs: 1: 19.351 MH/s (0) 2: 24.537 MH/s (0)
+2021.05.18:23:45:22.957: main Eth speed: 44.074 MH/s, shares: 0/0/0, time: 0:01
+2021.05.18:23:45:22.957: main GPUs: 1: 19.503 MH/s (0) 2: 24.571 MH/s (0)
+2021.05.18:23:45:23.750: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:45:23.750: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","worker":"imsidzluv.001","params":["0x29f5dea","0x75a4a78d36e2f223648d44f6ba31d774cf6f8a3de1ba565ea760c21250a49cd0"]}
+
+2021.05.18:23:45:23.907: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0x9df7b439969f7d72501a93fb33778fd4c7cfaf3a34af87bede60d9b1e3474228","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459950}
+2021.05.18:23:45:23.907: eths Eth: Received: {"id":6,"jsonrpc":"2.0","result":true}
+2021.05.18:23:45:26.058: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x5e5a146a9e5c8d5c957794acfbff79d47d0cd56cdf0497365a5599775a7434ba","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459951}
+2021.05.18:23:45:26.058: eths Eth: New job #5e5a146a from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:45:26.203: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xe557c9e7b79f858f7132fb7975b4a0248012305f601592161c453fc4e9a167cc","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459951}
+2021.05.18:23:45:26.204: eths Eth: New job #e557c9e7 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:45:28.123: main Eth speed: 44.161 MH/s, shares: 0/0/0, time: 0:01
+2021.05.18:23:45:28.123: main GPUs: 1: 19.624 MH/s (0) 2: 24.537 MH/s (0)
+2021.05.18:23:45:30.805: main  
+2021.05.18:23:45:30.805: main *** 0:01 *** 5/18 23:45 **************************************
+2021.05.18:23:45:30.807: main Eth: Mining ETH on ethash.poolbinance.com:1800 for 0:01
+2021.05.18:23:45:30.807: main Eth: Accepted shares 0 (0 stales), rejected shares 0 (0 stales)
+2021.05.18:23:45:30.807: main Eth: Incorrect shares 0 (0.00%), est. stales percentage 0.00% 
+2021.05.18:23:45:30.807: main Eth: Average speed (5 min): 44.016 MH/s
+2021.05.18:23:45:30.807: main Eth: Effective speed: 0.00 MH/s; at pool: 0.00 MH/s
+2021.05.18:23:45:30.807: main  
+2021.05.18:23:45:31.011: main GPU1: 100% 68W, GPU2: 100% 106W
+GPUs power: 174.1 W; 254 kH/J
+2021.05.18:23:45:33.267: main Eth speed: 44.213 MH/s, shares: 0/0/0, time: 0:01
+2021.05.18:23:45:33.267: main GPUs: 1: 19.676 MH/s (0) 2: 24.537 MH/s (0)
+2021.05.18:23:45:33.760: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:45:33.917: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0xe557c9e7b79f858f7132fb7975b4a0248012305f601592161c453fc4e9a167cc","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459951}
+2021.05.18:23:45:38.271: main Eth speed: 44.151 MH/s, shares: 0/0/0, time: 0:01
+2021.05.18:23:45:38.271: main GPUs: 1: 19.635 MH/s (0) 2: 24.516 MH/s (0)
+2021.05.18:23:45:43.426: main Eth speed: 44.155 MH/s, shares: 0/0/0, time: 0:01
+2021.05.18:23:45:43.426: main GPUs: 1: 19.618 MH/s (0) 2: 24.537 MH/s (0)
+2021.05.18:23:45:43.736: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x4d8783a90c084d156c59008fe17b65dc6872ad24d676e9932972e7a2ab16494b","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459952}
+2021.05.18:23:45:43.737: eths Eth: New job #4d8783a9 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:45:43.776: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:45:43.776: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","worker":"imsidzluv.001","params":["0x2a01587","0x75a4a78d36e2f223648d44f6ba31d774cf6f8a3de1ba565ea760c21250a49cd0"]}
+
+2021.05.18:23:45:43.863: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x8f2ade824c99c14e99c8ca85e0afb4dde1ed1b5d6f18f1450fd47a9ae12ad29c","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459952}
+2021.05.18:23:45:43.863: eths Eth: New job #8f2ade82 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:45:43.933: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0x8f2ade824c99c14e99c8ca85e0afb4dde1ed1b5d6f18f1450fd47a9ae12ad29c","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459952}
+2021.05.18:23:45:43.933: eths Eth: Received: {"id":6,"jsonrpc":"2.0","result":true}
+2021.05.18:23:45:44.478: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xf73635aeea0f64cf84cf82a436e3745903db0aac5729a76d7a2cf923d1171586","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459952}
+2021.05.18:23:45:44.478: eths Eth: New job #f73635ae from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:45:46.455: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x80d36ecff6574b67d646ee4d23a0bf4d648d942c180ea9e556e5d300726024ab","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459953}
+2021.05.18:23:45:46.455: eths Eth: New job #80d36ecf from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:45:46.623: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xd75c9c752000b38c305d1e2fad23290198895406e4636bd1d3331b87f20f6192","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459953}
+2021.05.18:23:45:46.623: eths Eth: New job #d75c9c75 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:45:47.201: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x63ad5a510ffa86921bbeb3080d196eb80115bd35fb0c5c094e7e7988658e1c2c","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459954}
+2021.05.18:23:45:47.201: eths Eth: New job #63ad5a51 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:45:47.333: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xea2f775aa5e76a4466d993396ea9620b42ea79cfe8e8e9c0e4e6fac1a1dbb97e","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459954}
+2021.05.18:23:45:47.333: eths Eth: New job #ea2f775a from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:45:48.571: main Eth speed: 44.153 MH/s, shares: 0/0/0, time: 0:01
+2021.05.18:23:45:48.571: main GPUs: 1: 19.616 MH/s (0) 2: 24.537 MH/s (0)
+2021.05.18:23:45:53.715: main Eth speed: 44.225 MH/s, shares: 0/0/0, time: 0:01
+2021.05.18:23:45:53.715: main GPUs: 1: 19.689 MH/s (0) 2: 24.536 MH/s (0)
+2021.05.18:23:45:53.778: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:45:53.935: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0xea2f775aa5e76a4466d993396ea9620b42ea79cfe8e8e9c0e4e6fac1a1dbb97e","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459954}
+2021.05.18:23:45:58.855: main Eth speed: 44.167 MH/s, shares: 0/0/0, time: 0:01
+2021.05.18:23:45:58.855: main GPUs: 1: 19.631 MH/s (0) 2: 24.536 MH/s (0)
+2021.05.18:23:46:01.306: main GPU1: 100% 68W, GPU2: 100% 106W
+GPUs power: 173.6 W; 254 kH/J
+2021.05.18:23:46:03.791: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:46:03.791: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","worker":"imsidzluv.001","params":["0x2a065af","0x75a4a78d36e2f223648d44f6ba31d774cf6f8a3de1ba565ea760c21250a49cd0"]}
+
+2021.05.18:23:46:03.948: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0x27dc4eea41c2ab1650f3de1b990b7a07dada08f6118d986075f3530b27bf8b70","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459954}
+2021.05.18:23:46:03.948: eths Eth: New job #27dc4eea from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:46:03.949: eths Eth: Received: {"id":6,"jsonrpc":"2.0","result":true}
+2021.05.18:23:46:03.981: main Eth speed: 44.148 MH/s, shares: 0/0/0, time: 0:02
+2021.05.18:23:46:03.981: main GPUs: 1: 19.611 MH/s (0) 2: 24.537 MH/s (0)
+2021.05.18:23:46:09.140: main Eth speed: 43.910 MH/s, shares: 0/0/0, time: 0:02
+2021.05.18:23:46:09.140: main GPUs: 1: 19.372 MH/s (0) 2: 24.537 MH/s (0)
+2021.05.18:23:46:13.805: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:46:13.961: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0x6f398d50edeac9c234a1066d601d6e2ea586c5433516064c97fd7e6850a8b7ef","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459954}
+2021.05.18:23:46:13.962: eths Eth: New job #6f398d50 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:46:14.279: main Eth speed: 43.881 MH/s, shares: 0/0/0, time: 0:02
+2021.05.18:23:46:14.279: main GPUs: 1: 19.345 MH/s (0) 2: 24.537 MH/s (0)
+2021.05.18:23:46:15.923: main  
+2021.05.18:23:46:15.923: main *** 0:02 *** 5/18 23:46 **************************************
+2021.05.18:23:46:15.924: main Eth: Mining ETH on ethash.poolbinance.com:1800 for 0:02
+2021.05.18:23:46:15.924: main Eth: Accepted shares 0 (0 stales), rejected shares 0 (0 stales)
+2021.05.18:23:46:15.924: main Eth: Incorrect shares 0 (0.00%), est. stales percentage 0.00% 
+2021.05.18:23:46:15.924: main Eth: Average speed (5 min): 44.050 MH/s
+2021.05.18:23:46:15.924: main Eth: Effective speed: 0.00 MH/s; at pool: 0.00 MH/s
+2021.05.18:23:46:15.924: main  
+2021.05.18:23:46:17.291: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x6f398d50edeac9c234a1066d601d6e2ea586c5433516064c97fd7e6850a8b7ef","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459954}
+2021.05.18:23:46:17.989: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x2d40947e42aed4e9eb3bef5433b3e8bc28d61794fe852cf7ea4639822c59def6","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459955}
+2021.05.18:23:46:17.989: eths Eth: New job #2d40947e from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:46:18.114: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x43d2bf81c9a5d5556e5985ff9d1de27a592a271c8ccf33be120fa82908eace4f","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459955}
+2021.05.18:23:46:18.114: eths Eth: New job #43d2bf81 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:46:19.412: main Eth speed: 43.962 MH/s, shares: 0/0/0, time: 0:02
+2021.05.18:23:46:19.412: main GPUs: 1: 19.425 MH/s (0) 2: 24.537 MH/s (0)
+2021.05.18:23:46:23.819: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:46:23.819: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","worker":"imsidzluv.001","params":["0x2a0157b","0x75a4a78d36e2f223648d44f6ba31d774cf6f8a3de1ba565ea760c21250a49cd0"]}
+
+2021.05.18:23:46:23.976: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0x43d2bf81c9a5d5556e5985ff9d1de27a592a271c8ccf33be120fa82908eace4f","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459955}
+2021.05.18:23:46:23.976: eths Eth: Received: {"id":6,"jsonrpc":"2.0","result":true}
+2021.05.18:23:46:24.594: main Eth speed: 43.786 MH/s, shares: 0/0/0, time: 0:02
+2021.05.18:23:46:24.594: main GPUs: 1: 19.249 MH/s (0) 2: 24.537 MH/s (0)
+2021.05.18:23:46:29.767: main Eth speed: 43.610 MH/s, shares: 0/0/0, time: 0:02
+2021.05.18:23:46:29.767: main GPUs: 1: 19.074 MH/s (0) 2: 24.537 MH/s (0)
+2021.05.18:23:46:31.413: main GPU1: 100% 68W, GPU2: 100% 106W
+GPUs power: 173.8 W; 251 kH/J
+2021.05.18:23:46:33.828: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:46:33.986: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0x43d2bf81c9a5d5556e5985ff9d1de27a592a271c8ccf33be120fa82908eace4f","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459955}
+2021.05.18:23:46:34.911: main Eth speed: 43.794 MH/s, shares: 0/0/0, time: 0:02
+2021.05.18:23:46:34.911: main GPUs: 1: 19.257 MH/s (0) 2: 24.537 MH/s (0)
+2021.05.18:23:46:38.131: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x4364c6f131862be1e9fa32071d2c6fefde6f319904113ca55516fb448e55b7c6","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459956}
+2021.05.18:23:46:38.131: eths Eth: New job #4364c6f1 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:46:38.281: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xebb47429020849e37d7c26bcc995c50644e7f8c93b957b0b72865b6818840008","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459956}
+2021.05.18:23:46:38.281: eths Eth: New job #ebb47429 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:46:40.059: main Eth speed: 43.885 MH/s, shares: 0/0/0, time: 0:02
+2021.05.18:23:46:40.059: main GPUs: 1: 19.348 MH/s (0) 2: 24.537 MH/s (0)
+2021.05.18:23:46:43.837: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:46:43.837: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","worker":"imsidzluv.001","params":["0x29f5d86","0x75a4a78d36e2f223648d44f6ba31d774cf6f8a3de1ba565ea760c21250a49cd0"]}
+
+2021.05.18:23:46:43.994: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0xebb47429020849e37d7c26bcc995c50644e7f8c93b957b0b72865b6818840008","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459956}
+2021.05.18:23:46:43.994: eths Eth: Received: {"id":6,"jsonrpc":"2.0","result":true}
+2021.05.18:23:46:45.200: main Eth speed: 43.879 MH/s, shares: 0/0/0, time: 0:02
+2021.05.18:23:46:45.200: main GPUs: 1: 19.342 MH/s (0) 2: 24.537 MH/s (0)
+2021.05.18:23:46:50.200: main Eth speed: 43.937 MH/s, shares: 0/0/0, time: 0:02
+2021.05.18:23:46:50.200: main GPUs: 1: 19.400 MH/s (0) 2: 24.537 MH/s (0)
+2021.05.18:23:46:53.847: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:46:54.005: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0x953685eac02cb92ce25d26eb2f7f5dfb3c5078b3016ab4bf55f81dbd1b5e8035","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459956}
+2021.05.18:23:46:54.005: eths Eth: New job #953685ea from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:46:55.352: main Eth speed: 44.106 MH/s, shares: 0/0/0, time: 0:02
+2021.05.18:23:46:55.352: main GPUs: 1: 19.569 MH/s (0) 2: 24.536 MH/s (0)
+2021.05.18:23:47:00.513: main Eth speed: 44.170 MH/s, shares: 0/0/0, time: 0:03
+2021.05.18:23:47:00.513: main GPUs: 1: 19.633 MH/s (0) 2: 24.537 MH/s (0)
+2021.05.18:23:47:00.928: main  
+2021.05.18:23:47:00.928: main *** 0:03 *** 5/18 23:47 **************************************
+2021.05.18:23:47:00.929: main Eth: Mining ETH on ethash.poolbinance.com:1800 for 0:02
+2021.05.18:23:47:00.929: main Eth: Accepted shares 0 (0 stales), rejected shares 0 (0 stales)
+2021.05.18:23:47:00.929: main Eth: Incorrect shares 0 (0.00%), est. stales percentage 0.00% 
+2021.05.18:23:47:00.929: main Eth: Average speed (5 min): 44.016 MH/s
+2021.05.18:23:47:00.929: main Eth: Effective speed: 0.00 MH/s; at pool: 0.00 MH/s
+2021.05.18:23:47:00.929: main  
+2021.05.18:23:47:01.545: main GPU1: 100% 68W, GPU2: 100% 106W
+GPUs power: 173.8 W; 254 kH/J
+2021.05.18:23:47:03.861: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:47:03.861: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","worker":"imsidzluv.001","params":["0x29fa026","0x75a4a78d36e2f223648d44f6ba31d774cf6f8a3de1ba565ea760c21250a49cd0"]}
+
+2021.05.18:23:47:04.018: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0xd4e2328816fcf110df3ce291a3eba035312f69f0f59481ca6d263689efffe2ed","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459956}
+2021.05.18:23:47:04.018: eths Eth: New job #d4e23288 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:47:04.018: eths Eth: Received: {"id":6,"jsonrpc":"2.0","result":true}
+2021.05.18:23:47:05.664: main Eth speed: 44.140 MH/s, shares: 0/0/0, time: 0:03
+2021.05.18:23:47:05.664: main GPUs: 1: 19.603 MH/s (0) 2: 24.537 MH/s (0)
+2021.05.18:23:47:08.227: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xd4e2328816fcf110df3ce291a3eba035312f69f0f59481ca6d263689efffe2ed","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459956}
+2021.05.18:23:47:10.802: main Eth speed: 44.118 MH/s, shares: 0/0/0, time: 0:03
+2021.05.18:23:47:10.802: main GPUs: 1: 19.581 MH/s (0) 2: 24.537 MH/s (0)
+2021.05.18:23:47:13.109: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x3c7835c62240a1f5dfdc69a33b6ff6bc2ab0411505bdbce53511ce348ede320d","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459957}
+2021.05.18:23:47:13.109: eths Eth: New job #3c7835c6 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:47:13.256: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x93abd1f743cf08e539083e5eddf185197f5097346b27f5ee8805220000fafc4b","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459957}
+2021.05.18:23:47:13.256: eths Eth: New job #93abd1f7 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:47:13.869: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:47:14.027: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0x93abd1f743cf08e539083e5eddf185197f5097346b27f5ee8805220000fafc4b","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459957}
+2021.05.18:23:47:15.943: main Eth speed: 43.857 MH/s, shares: 0/0/0, time: 0:03
+2021.05.18:23:47:15.943: main GPUs: 1: 19.319 MH/s (0) 2: 24.537 MH/s (0)
+2021.05.18:23:47:21.094: main Eth speed: 43.916 MH/s, shares: 0/0/0, time: 0:03
+2021.05.18:23:47:21.094: main GPUs: 1: 19.379 MH/s (0) 2: 24.537 MH/s (0)
+2021.05.18:23:47:22.759: GPU1 Eth: GPU1: ETH share found!
+2021.05.18:23:47:22.760: eths Eth: Send: {"id":4,"jsonrpc":"2.0","method":"eth_submitWork","worker":"imsidzluv.001","params":["0xcb8d42ba839e6224","0x93abd1f743cf08e539083e5eddf185197f5097346b27f5ee8805220000fafc4b","0xdee00bf54012c441b7f05d6553b6dc7ff7b9ba9dba6799f1d0ba3fe113ee564c"]}
+
+2021.05.18:23:47:22.760: eths Eth: Share actual difficulty: 10.0 GH (!)
+2021.05.18:23:47:22.921: eths Eth: Received: {"id":4,"jsonrpc":"2.0","result":true}
+2021.05.18:23:47:22.921: eths Eth: Share accepted in 162 ms
+2021.05.18:23:47:23.881: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:47:23.881: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","worker":"imsidzluv.001","params":["0x29f94a4","0x75a4a78d36e2f223648d44f6ba31d774cf6f8a3de1ba565ea760c21250a49cd0"]}
+
+2021.05.18:23:47:24.038: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0x93abd1f743cf08e539083e5eddf185197f5097346b27f5ee8805220000fafc4b","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459957}
+2021.05.18:23:47:24.038: eths Eth: Received: {"id":6,"jsonrpc":"2.0","result":true}
+2021.05.18:23:47:26.261: main Eth speed: 43.924 MH/s, shares: 1/0/0, time: 0:03
+2021.05.18:23:47:26.261: main GPUs: 1: 19.387 MH/s (1) 2: 24.537 MH/s (0)
+2021.05.18:23:47:31.403: main Eth speed: 43.980 MH/s, shares: 1/0/0, time: 0:03
+2021.05.18:23:47:31.403: main GPUs: 1: 19.443 MH/s (1) 2: 24.536 MH/s (0)
+2021.05.18:23:47:31.815: main GPU1: 100% 68W, GPU2: 100% 106W
+GPUs power: 173.6 W; 253 kH/J
+2021.05.18:23:47:32.808: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x51c4e932cc8ceea8c028e7d3a664a1c8bcbd43ee1de2e0e690c33a83bea1a453","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459958}
+2021.05.18:23:47:32.808: eths Eth: New job #51c4e932 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:47:32.962: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xee2e10d03f433e8f0229ceeca032196d78a84800d7eada2d4c01dcc0f2b90cf5","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459958}
+2021.05.18:23:47:32.962: eths Eth: New job #ee2e10d0 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:47:33.886: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:47:34.043: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0xee2e10d03f433e8f0229ceeca032196d78a84800d7eada2d4c01dcc0f2b90cf5","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459958}
+2021.05.18:23:47:36.543: main Eth speed: 43.976 MH/s, shares: 1/0/0, time: 0:03
+2021.05.18:23:47:36.543: main GPUs: 1: 19.440 MH/s (1) 2: 24.536 MH/s (0)
+2021.05.18:23:47:38.418: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xd20f22a1c32e99f70c31b56deaa5f11a82afa6db1dc60dc4331b049afc7d1543","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459959}
+2021.05.18:23:47:38.418: eths Eth: New job #d20f22a1 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:47:38.569: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x50c0dd479e69f72eaf33198102781c15cf659dbfc61e4b2e92d08160a5acd40e","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459959}
+2021.05.18:23:47:38.569: eths Eth: New job #50c0dd47 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:47:41.685: main Eth speed: 44.183 MH/s, shares: 1/0/0, time: 0:03
+2021.05.18:23:47:41.685: main GPUs: 1: 19.646 MH/s (1) 2: 24.536 MH/s (0)
+2021.05.18:23:47:42.507: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xcffc39396b387dda961ca9ede8eed5600f4325edc731166ca7b492aaba0fa19b","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459960}
+2021.05.18:23:47:42.508: eths Eth: New job #cffc3939 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:47:42.656: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xbf7b2f91bf380eacdbf59b2049067216af6c393d7739612f9ed256e792fdc666","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459960}
+2021.05.18:23:47:42.656: eths Eth: New job #bf7b2f91 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:47:43.887: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:47:43.887: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","worker":"imsidzluv.001","params":["0x29f9ef6","0x75a4a78d36e2f223648d44f6ba31d774cf6f8a3de1ba565ea760c21250a49cd0"]}
+
+2021.05.18:23:47:44.044: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0xbf7b2f91bf380eacdbf59b2049067216af6c393d7739612f9ed256e792fdc666","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459960}
+2021.05.18:23:47:44.044: eths Eth: Received: {"id":6,"jsonrpc":"2.0","result":true}
+2021.05.18:23:47:46.013: main  
+2021.05.18:23:47:46.013: main *** 0:03 *** 5/18 23:47 **************************************
+2021.05.18:23:47:46.014: main Eth: Mining ETH on ethash.poolbinance.com:1800 for 0:03
+2021.05.18:23:47:46.014: main Eth: Accepted shares 1 (0 stales), rejected shares 0 (0 stales)
+2021.05.18:23:47:46.014: main Eth: Incorrect shares 0 (0.00%), est. stales percentage 0.00% 
+2021.05.18:23:47:46.014: main Eth: Maximum difficulty of found share: 10.0 GH (!)
+2021.05.18:23:47:46.014: main Eth: Average speed (5 min): 44.015 MH/s
+2021.05.18:23:47:46.014: main Eth: Effective speed: 38.18 MH/s; at pool: 38.18 MH/s
+2021.05.18:23:47:46.014: main  
+2021.05.18:23:47:46.837: main Eth speed: 44.235 MH/s, shares: 1/0/0, time: 0:03
+2021.05.18:23:47:46.837: main GPUs: 1: 19.698 MH/s (1) 2: 24.537 MH/s (0)
+2021.05.18:23:47:52.012: main Eth speed: 44.089 MH/s, shares: 1/0/0, time: 0:03
+2021.05.18:23:47:52.012: main GPUs: 1: 19.552 MH/s (1) 2: 24.537 MH/s (0)
+2021.05.18:23:47:53.053: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x7d77059adef170cc09b16f4f1796a41bb1ee5bb43a22042824bc82f776e49c7e","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459961}
+2021.05.18:23:47:53.053: eths Eth: New job #7d77059a from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:47:53.185: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x8ffa1cf2fdefb3e8a2178f8275f7751bb848726db4ff34aba526ba4da670b2a6","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459961}
+2021.05.18:23:47:53.185: eths Eth: New job #8ffa1cf2 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:47:53.889: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:47:54.046: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0x8ffa1cf2fdefb3e8a2178f8275f7751bb848726db4ff34aba526ba4da670b2a6","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459961}
+2021.05.18:23:47:57.165: main Eth speed: 43.806 MH/s, shares: 1/0/0, time: 0:03
+2021.05.18:23:47:57.165: main GPUs: 1: 19.269 MH/s (1) 2: 24.537 MH/s (0)
+2021.05.18:23:48:01.937: main GPU1: 100% 68W, GPU2: 100% 106W
+GPUs power: 173.7 W; 252 kH/J
+2021.05.18:23:48:02.352: main Eth speed: 43.695 MH/s, shares: 1/0/0, time: 0:04
+2021.05.18:23:48:02.352: main GPUs: 1: 19.158 MH/s (1) 2: 24.537 MH/s (0)
+2021.05.18:23:48:03.903: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:48:03.903: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","worker":"imsidzluv.001","params":["0x29f6c77","0x75a4a78d36e2f223648d44f6ba31d774cf6f8a3de1ba565ea760c21250a49cd0"]}
+
+2021.05.18:23:48:04.060: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0xc0ec5d45b7f92ac504796883dbbf03404bb24a514fd246cf5a0513c7e730c145","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459961}
+2021.05.18:23:48:04.061: eths Eth: New job #c0ec5d45 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:48:04.061: eths Eth: Received: {"id":6,"jsonrpc":"2.0","result":true}
+2021.05.18:23:48:06.479: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x2d290b82c2a95503ec2ad9c7c1e53516e3a5cfcabc336db1a84e2d71121cd666","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459962}
+2021.05.18:23:48:06.479: eths Eth: New job #2d290b82 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:48:06.614: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xd8ee1245949ec9269fb5d83e80e5280a45427f58e3d1be6caaa3b8a7bf0ae6cd","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459962}
+2021.05.18:23:48:06.614: eths Eth: New job #d8ee1245 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:48:07.503: main Eth speed: 43.957 MH/s, shares: 1/0/0, time: 0:04
+2021.05.18:23:48:07.503: main GPUs: 1: 19.420 MH/s (1) 2: 24.537 MH/s (0)
+2021.05.18:23:48:12.652: main Eth speed: 44.030 MH/s, shares: 1/0/0, time: 0:04
+2021.05.18:23:48:12.653: main GPUs: 1: 19.492 MH/s (1) 2: 24.538 MH/s (0)
+2021.05.18:23:48:13.912: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:48:14.072: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0xd8ee1245949ec9269fb5d83e80e5280a45427f58e3d1be6caaa3b8a7bf0ae6cd","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459962}
+2021.05.18:23:48:17.793: main Eth speed: 43.764 MH/s, shares: 1/0/0, time: 0:04
+2021.05.18:23:48:17.793: main GPUs: 1: 19.226 MH/s (1) 2: 24.537 MH/s (0)
+2021.05.18:23:48:22.944: main Eth speed: 43.660 MH/s, shares: 1/0/0, time: 0:04
+2021.05.18:23:48:22.944: main GPUs: 1: 19.124 MH/s (1) 2: 24.537 MH/s (0)
+2021.05.18:23:48:23.920: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:48:23.920: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","worker":"imsidzluv.001","params":["0x29f2ba6","0x75a4a78d36e2f223648d44f6ba31d774cf6f8a3de1ba565ea760c21250a49cd0"]}
+
+2021.05.18:23:48:24.077: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0xfad194ae98234c6f918d7ab44ce70b9f77f237b6377a27606e8fb65d6292c04b","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459962}
+2021.05.18:23:48:24.077: eths Eth: New job #fad194ae from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:48:24.077: eths Eth: Received: {"id":6,"jsonrpc":"2.0","result":true}
+2021.05.18:23:48:28.085: main Eth speed: 43.781 MH/s, shares: 1/0/0, time: 0:04
+2021.05.18:23:48:28.085: main GPUs: 1: 19.244 MH/s (1) 2: 24.537 MH/s (0)
+2021.05.18:23:48:31.197: main  
+2021.05.18:23:48:31.197: main *** 0:04 *** 5/18 23:48 **************************************
+2021.05.18:23:48:31.198: main Eth: Mining ETH on ethash.poolbinance.com:1800 for 0:04
+2021.05.18:23:48:31.198: main Eth: Accepted shares 1 (0 stales), rejected shares 0 (0 stales)
+2021.05.18:23:48:31.198: main Eth: Incorrect shares 0 (0.00%), est. stales percentage 0.00% 
+2021.05.18:23:48:31.198: main Eth: Maximum difficulty of found share: 10.0 GH (!)
+2021.05.18:23:48:31.198: main Eth: Average speed (5 min): 43.986 MH/s
+2021.05.18:23:48:31.198: main Eth: Effective speed: 31.81 MH/s; at pool: 31.81 MH/s
+2021.05.18:23:48:31.198: main  
+2021.05.18:23:48:32.227: main GPU1: 100% 68W, GPU2: 100% 106W
+GPUs power: 173.6 W; 252 kH/J
+2021.05.18:23:48:33.255: main Eth speed: 43.725 MH/s, shares: 1/0/0, time: 0:04
+2021.05.18:23:48:33.255: main GPUs: 1: 19.189 MH/s (1) 2: 24.537 MH/s (0)
+2021.05.18:23:48:33.922: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:48:34.080: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0xfad194ae98234c6f918d7ab44ce70b9f77f237b6377a27606e8fb65d6292c04b","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459962}
+2021.05.18:23:48:36.576: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xfad194ae98234c6f918d7ab44ce70b9f77f237b6377a27606e8fb65d6292c04b","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459962}
+2021.05.18:23:48:38.404: main Eth speed: 43.614 MH/s, shares: 1/0/0, time: 0:04
+2021.05.18:23:48:38.404: main GPUs: 1: 19.077 MH/s (1) 2: 24.537 MH/s (0)
+2021.05.18:23:48:43.571: main Eth speed: 43.649 MH/s, shares: 1/0/0, time: 0:04
+2021.05.18:23:48:43.571: main GPUs: 1: 19.112 MH/s (1) 2: 24.537 MH/s (0)
+2021.05.18:23:48:43.933: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:48:43.933: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","worker":"imsidzluv.001","params":["0x29ed65a","0x75a4a78d36e2f223648d44f6ba31d774cf6f8a3de1ba565ea760c21250a49cd0"]}
+
+2021.05.18:23:48:44.090: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0xfad194ae98234c6f918d7ab44ce70b9f77f237b6377a27606e8fb65d6292c04b","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459962}
+2021.05.18:23:48:44.090: eths Eth: Received: {"id":6,"jsonrpc":"2.0","result":true}
+2021.05.18:23:48:45.957: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x2848681e817ee7f0da12005120162fee095862aab3f386fc05a246d361535b75","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459963}
+2021.05.18:23:48:45.958: eths Eth: New job #2848681e from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:48:46.074: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x4ba5620f01645afce5bdc442ddc196c0a3a69f94f2fb7369dd1ffb1367b5984a","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459963}
+2021.05.18:23:48:46.074: eths Eth: New job #4ba5620f from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:48:48.717: main Eth speed: 43.917 MH/s, shares: 1/0/0, time: 0:04
+2021.05.18:23:48:48.717: main GPUs: 1: 19.380 MH/s (1) 2: 24.537 MH/s (0)
+2021.05.18:23:48:51.119: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x911e842cdb8c337fd108b6417972d0733926e9258a53769ccfaf61a6621e0c65","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459964}
+2021.05.18:23:48:51.119: eths Eth: New job #911e842c from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:48:51.252: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x038e541bd1fe55ac4100873223bedd09dfe7ece91f5ec57e1bee3b4e3fe3abd7","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459964}
+2021.05.18:23:48:51.252: eths Eth: New job #038e541b from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:48:53.872: main Eth speed: 44.130 MH/s, shares: 1/0/0, time: 0:04
+2021.05.18:23:48:53.872: main GPUs: 1: 19.593 MH/s (1) 2: 24.537 MH/s (0)
+2021.05.18:23:48:53.949: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:48:54.106: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0x038e541bd1fe55ac4100873223bedd09dfe7ece91f5ec57e1bee3b4e3fe3abd7","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459964}
+2021.05.18:23:48:59.002: main Eth speed: 43.983 MH/s, shares: 1/0/0, time: 0:04
+2021.05.18:23:48:59.002: main GPUs: 1: 19.446 MH/s (1) 2: 24.537 MH/s (0)
+2021.05.18:23:49:02.289: main GPU1: 100% 66W, GPU2: 100% 106W
+GPUs power: 172.3 W; 255 kH/J
+2021.05.18:23:49:03.951: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:49:03.952: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","worker":"imsidzluv.001","params":["0x29eda68","0x75a4a78d36e2f223648d44f6ba31d774cf6f8a3de1ba565ea760c21250a49cd0"]}
+
+2021.05.18:23:49:04.108: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0x06ec5423240cf7040e7e3c12aff4bbeea4231e29d09d4be9b10fe9c529100a51","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459964}
+2021.05.18:23:49:04.108: eths Eth: New job #06ec5423 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:49:04.108: eths Eth: Received: {"id":6,"jsonrpc":"2.0","result":true}
+2021.05.18:23:49:04.125: main Eth speed: 43.630 MH/s, shares: 1/0/0, time: 0:05
+2021.05.18:23:49:04.125: main GPUs: 1: 19.092 MH/s (1) 2: 24.537 MH/s (0)
+2021.05.18:23:49:09.271: main Eth speed: 43.524 MH/s, shares: 1/0/0, time: 0:05
+2021.05.18:23:49:09.271: main GPUs: 1: 18.986 MH/s (1) 2: 24.538 MH/s (0)
+2021.05.18:23:49:13.966: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:49:14.124: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0x06ec5423240cf7040e7e3c12aff4bbeea4231e29d09d4be9b10fe9c529100a51","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459964}
+2021.05.18:23:49:14.412: main Eth speed: 43.763 MH/s, shares: 1/0/0, time: 0:05
+2021.05.18:23:49:14.412: main GPUs: 1: 19.226 MH/s (1) 2: 24.537 MH/s (0)
+2021.05.18:23:49:16.267: main  
+2021.05.18:23:49:16.267: main *** 0:05 *** 5/18 23:49 **************************************
+2021.05.18:23:49:16.268: main Eth: Mining ETH on ethash.poolbinance.com:1800 for 0:05
+2021.05.18:23:49:16.268: main Eth: Accepted shares 1 (0 stales), rejected shares 0 (0 stales)
+2021.05.18:23:49:16.268: main Eth: Incorrect shares 0 (0.00%), est. stales percentage 0.00% 
+2021.05.18:23:49:16.268: main Eth: Maximum difficulty of found share: 10.0 GH (!)
+2021.05.18:23:49:16.268: main Eth: Average speed (5 min): 43.954 MH/s
+2021.05.18:23:49:16.268: main Eth: Effective speed: 27.27 MH/s; at pool: 27.27 MH/s
+2021.05.18:23:49:16.268: main  
+2021.05.18:23:49:19.566: main Eth speed: 44.041 MH/s, shares: 1/0/0, time: 0:05
+2021.05.18:23:49:19.566: main GPUs: 1: 19.505 MH/s (1) 2: 24.537 MH/s (0)
+2021.05.18:23:49:21.216: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x06ec5423240cf7040e7e3c12aff4bbeea4231e29d09d4be9b10fe9c529100a51","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459964}
+2021.05.18:23:49:23.979: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:49:23.979: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","worker":"imsidzluv.001","params":["0x29ebb68","0x75a4a78d36e2f223648d44f6ba31d774cf6f8a3de1ba565ea760c21250a49cd0"]}
+
+2021.05.18:23:49:24.136: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0x06ec5423240cf7040e7e3c12aff4bbeea4231e29d09d4be9b10fe9c529100a51","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459964}
+2021.05.18:23:49:24.137: eths Eth: Received: {"id":6,"jsonrpc":"2.0","result":true}
+2021.05.18:23:49:24.732: main Eth speed: 44.056 MH/s, shares: 1/0/0, time: 0:05
+2021.05.18:23:49:24.732: main GPUs: 1: 19.520 MH/s (1) 2: 24.537 MH/s (0)
+2021.05.18:23:49:29.882: main Eth speed: 44.110 MH/s, shares: 1/0/0, time: 0:05
+2021.05.18:23:49:29.882: main GPUs: 1: 19.574 MH/s (1) 2: 24.536 MH/s (0)
+2021.05.18:23:49:32.558: main GPU1: 100% 68W, GPU2: 100% 106W
+GPUs power: 174.0 W; 253 kH/J
+2021.05.18:23:49:33.994: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:49:34.152: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0x06ec5423240cf7040e7e3c12aff4bbeea4231e29d09d4be9b10fe9c529100a51","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459964}
+2021.05.18:23:49:35.036: main Eth speed: 44.102 MH/s, shares: 1/0/0, time: 0:05
+2021.05.18:23:49:35.036: main GPUs: 1: 19.565 MH/s (1) 2: 24.537 MH/s (0)
+2021.05.18:23:49:37.545: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x2f852bb77b4bc65ac2da9eeeebc621df0e1569a8fb0e7641c14df0528572d0a0","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459965}
+2021.05.18:23:49:37.545: eths Eth: New job #2f852bb7 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:49:37.669: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x3463532988ec7fff0f2aea96a854b49f28a0de1b0fc8f4f83f2d398477200f79","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459965}
+2021.05.18:23:49:37.669: eths Eth: New job #34635329 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:49:40.200: main Eth speed: 43.974 MH/s, shares: 1/0/0, time: 0:05
+2021.05.18:23:49:40.200: main GPUs: 1: 19.437 MH/s (1) 2: 24.537 MH/s (0)
+2021.05.18:23:49:43.998: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:49:43.998: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","worker":"imsidzluv.001","params":["0x29ec3fd","0x75a4a78d36e2f223648d44f6ba31d774cf6f8a3de1ba565ea760c21250a49cd0"]}
+
+2021.05.18:23:49:44.156: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0x3463532988ec7fff0f2aea96a854b49f28a0de1b0fc8f4f83f2d398477200f79","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459965}
+2021.05.18:23:49:44.156: eths Eth: Received: {"id":6,"jsonrpc":"2.0","result":true}
+2021.05.18:23:49:45.328: main Eth speed: 43.844 MH/s, shares: 1/0/0, time: 0:05
+2021.05.18:23:49:45.328: main GPUs: 1: 19.307 MH/s (1) 2: 24.537 MH/s (0)
+2021.05.18:23:49:50.475: main Eth speed: 43.807 MH/s, shares: 1/0/0, time: 0:05
+2021.05.18:23:49:50.475: main GPUs: 1: 19.269 MH/s (1) 2: 24.537 MH/s (0)
+2021.05.18:23:49:54.012: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:49:54.169: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0xaeb88f48700277c4326036fc5a45b317d3bdc37bda0ce2b34a4d7190730fa001","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459965}
+2021.05.18:23:49:54.169: eths Eth: New job #aeb88f48 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:49:55.616: main Eth speed: 43.755 MH/s, shares: 1/0/0, time: 0:05
+2021.05.18:23:49:55.616: main GPUs: 1: 19.218 MH/s (1) 2: 24.537 MH/s (0)
+2021.05.18:23:50:00.770: main Eth speed: 43.916 MH/s, shares: 1/0/0, time: 0:06
+2021.05.18:23:50:00.770: main GPUs: 1: 19.378 MH/s (1) 2: 24.538 MH/s (0)
+2021.05.18:23:50:01.385: main  
+2021.05.18:23:50:01.385: main *** 0:06 *** 5/18 23:50 **************************************
+2021.05.18:23:50:01.386: main Eth: Mining ETH on ethash.poolbinance.com:1800 for 0:05
+2021.05.18:23:50:01.386: main Eth: Accepted shares 1 (0 stales), rejected shares 0 (0 stales)
+2021.05.18:23:50:01.386: main Eth: Incorrect shares 0 (0.00%), est. stales percentage 0.00% 
+2021.05.18:23:50:01.386: main Eth: Maximum difficulty of found share: 10.0 GH (!)
+2021.05.18:23:50:01.386: main Eth: Average speed (5 min): 43.951 MH/s
+2021.05.18:23:50:01.386: main Eth: Effective speed: 23.86 MH/s; at pool: 23.86 MH/s
+2021.05.18:23:50:01.386: main  
+2021.05.18:23:50:02.592: main GPU1: 100% 68W, GPU2: 100% 106W
+GPUs power: 173.9 W; 253 kH/J
+2021.05.18:23:50:04.021: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:50:04.021: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","worker":"imsidzluv.001","params":["0x29eb7bd","0x75a4a78d36e2f223648d44f6ba31d774cf6f8a3de1ba565ea760c21250a49cd0"]}
+
+2021.05.18:23:50:04.179: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0xaeb88f48700277c4326036fc5a45b317d3bdc37bda0ce2b34a4d7190730fa001","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459965}
+2021.05.18:23:50:04.179: eths Eth: Received: {"id":6,"jsonrpc":"2.0","result":true}
+2021.05.18:23:50:05.879: main Eth speed: 43.957 MH/s, shares: 1/0/0, time: 0:06
+2021.05.18:23:50:05.879: main GPUs: 1: 19.420 MH/s (1) 2: 24.537 MH/s (0)
+2021.05.18:23:50:07.635: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xaeb88f48700277c4326036fc5a45b317d3bdc37bda0ce2b34a4d7190730fa001","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459965}
+2021.05.18:23:50:11.026: main Eth speed: 44.038 MH/s, shares: 1/0/0, time: 0:06
+2021.05.18:23:50:11.026: main GPUs: 1: 19.500 MH/s (1) 2: 24.537 MH/s (0)
+2021.05.18:23:50:14.031: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:50:14.188: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0xe59eb36744400518c11159d241f2ab3710e472a43a68cffaaeaf9263d0d0e194","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459965}
+2021.05.18:23:50:14.188: eths Eth: New job #e59eb367 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:50:16.216: main Eth speed: 43.986 MH/s, shares: 1/0/0, time: 0:06
+2021.05.18:23:50:16.216: main GPUs: 1: 19.449 MH/s (1) 2: 24.537 MH/s (0)
+2021.05.18:23:50:21.372: main Eth speed: 43.976 MH/s, shares: 1/0/0, time: 0:06
+2021.05.18:23:50:21.372: main GPUs: 1: 19.440 MH/s (1) 2: 24.537 MH/s (0)
+2021.05.18:23:50:24.041: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:50:24.041: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","worker":"imsidzluv.001","params":["0x29e8e48","0x75a4a78d36e2f223648d44f6ba31d774cf6f8a3de1ba565ea760c21250a49cd0"]}
+
+2021.05.18:23:50:24.198: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0xe59eb36744400518c11159d241f2ab3710e472a43a68cffaaeaf9263d0d0e194","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459965}
+2021.05.18:23:50:24.198: eths Eth: Received: {"id":6,"jsonrpc":"2.0","result":true}
+2021.05.18:23:50:26.522: main Eth speed: 43.989 MH/s, shares: 1/0/0, time: 0:06
+2021.05.18:23:50:26.522: main GPUs: 1: 19.452 MH/s (1) 2: 24.537 MH/s (0)
+2021.05.18:23:50:31.663: main Eth speed: 43.819 MH/s, shares: 1/0/0, time: 0:06
+2021.05.18:23:50:31.663: main GPUs: 1: 19.283 MH/s (1) 2: 24.537 MH/s (0)
+2021.05.18:23:50:32.913: main GPU1: 100% 67W, GPU2: 100% 106W
+GPUs power: 172.9 W; 253 kH/J
+2021.05.18:23:50:34.052: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:50:34.209: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0xe59eb36744400518c11159d241f2ab3710e472a43a68cffaaeaf9263d0d0e194","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459965}
+2021.05.18:23:50:36.815: main Eth speed: 43.768 MH/s, shares: 1/0/0, time: 0:06
+2021.05.18:23:50:36.815: main GPUs: 1: 19.231 MH/s (1) 2: 24.537 MH/s (0)
+2021.05.18:23:50:37.629: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xe59eb36744400518c11159d241f2ab3710e472a43a68cffaaeaf9263d0d0e194","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459965}
+2021.05.18:23:50:41.966: main Eth speed: 43.755 MH/s, shares: 1/0/0, time: 0:06
+2021.05.18:23:50:41.966: main GPUs: 1: 19.220 MH/s (1) 2: 24.535 MH/s (0)
+2021.05.18:23:50:43.109: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x01006b06239a74247514f1db135eed96e5a53535618cd247380b7fc0965f02cb","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459966}
+2021.05.18:23:50:43.109: eths Eth: New job #01006b06 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:50:43.244: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x4d150b657d65d4ede3e9dfabad82eac4939666bf24e555557f37622b21e2d046","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459966}
+2021.05.18:23:50:43.244: eths Eth: New job #4d150b65 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:50:44.062: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:50:44.062: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","worker":"imsidzluv.001","params":["0x29e3155","0x75a4a78d36e2f223648d44f6ba31d774cf6f8a3de1ba565ea760c21250a49cd0"]}
+
+2021.05.18:23:50:44.221: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0x4d150b657d65d4ede3e9dfabad82eac4939666bf24e555557f37622b21e2d046","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459966}
+2021.05.18:23:50:44.221: eths Eth: Received: {"id":6,"jsonrpc":"2.0","result":true}
+2021.05.18:23:50:46.352: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x9717af39b40e9e4c4182685d5503950f42a5e081124f16a4f22d267bef3b93f3","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459967}
+2021.05.18:23:50:46.352: eths Eth: New job #9717af39 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:50:46.487: main  
+2021.05.18:23:50:46.487: main *** 0:06 *** 5/18 23:50 **************************************
+2021.05.18:23:50:46.488: main Eth: Mining ETH on ethash.poolbinance.com:1800 for 0:06
+2021.05.18:23:50:46.488: main Eth: Accepted shares 1 (0 stales), rejected shares 0 (0 stales)
+2021.05.18:23:50:46.488: main Eth: Incorrect shares 0 (0.00%), est. stales percentage 0.00% 
+2021.05.18:23:50:46.488: main Eth: Maximum difficulty of found share: 10.0 GH (!)
+2021.05.18:23:50:46.488: main Eth: Average speed (5 min): 43.922 MH/s
+2021.05.18:23:50:46.488: main Eth: Effective speed: 21.16 MH/s; at pool: 21.16 MH/s
+2021.05.18:23:50:46.488: main  
+2021.05.18:23:50:46.498: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x7eb15a5e2f6d32ac6c82b4f279613ca8d78e4bcbf1e27770bf4b5a9c2c30fed2","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459967}
+2021.05.18:23:50:46.498: eths Eth: New job #7eb15a5e from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:50:47.104: main Eth speed: 43.703 MH/s, shares: 1/0/0, time: 0:06
+2021.05.18:23:50:47.105: main GPUs: 1: 19.167 MH/s (1) 2: 24.536 MH/s (0)
+2021.05.18:23:50:52.262: main Eth speed: 43.671 MH/s, shares: 1/0/0, time: 0:06
+2021.05.18:23:50:52.262: main GPUs: 1: 19.134 MH/s (1) 2: 24.537 MH/s (0)
+2021.05.18:23:50:54.067: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:50:54.224: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0x7eb15a5e2f6d32ac6c82b4f279613ca8d78e4bcbf1e27770bf4b5a9c2c30fed2","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459967}
+2021.05.18:23:50:57.398: main Eth speed: 43.915 MH/s, shares: 1/0/0, time: 0:06
+2021.05.18:23:50:57.398: main GPUs: 1: 19.379 MH/s (1) 2: 24.537 MH/s (0)
+2021.05.18:23:51:02.548: main Eth speed: 44.008 MH/s, shares: 1/0/0, time: 0:07
+2021.05.18:23:51:02.548: main GPUs: 1: 19.472 MH/s (1) 2: 24.536 MH/s (0)
+2021.05.18:23:51:03.163: main GPU1: 100% 67W, GPU2: 100% 106W
+GPUs power: 173.4 W; 254 kH/J
+2021.05.18:23:51:04.073: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:51:04.073: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","worker":"imsidzluv.001","params":["0x29e04bc","0x75a4a78d36e2f223648d44f6ba31d774cf6f8a3de1ba565ea760c21250a49cd0"]}
+
+2021.05.18:23:51:04.230: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0x9130475ef5f099f8071824fcdaba122e31fc191135345dc0303ee647902c82fd","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459967}
+2021.05.18:23:51:04.230: eths Eth: New job #9130475e from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:51:04.230: eths Eth: Received: {"id":6,"jsonrpc":"2.0","result":true}
+2021.05.18:23:51:07.675: main Eth speed: 44.109 MH/s, shares: 1/0/0, time: 0:07
+2021.05.18:23:51:07.675: main GPUs: 1: 19.572 MH/s (1) 2: 24.537 MH/s (0)
+2021.05.18:23:51:08.041: GPU1 Eth: GPU1: ETH share found!
+2021.05.18:23:51:08.041: eths Eth: Send: {"id":4,"jsonrpc":"2.0","method":"eth_submitWork","worker":"imsidzluv.001","params":["0x66465d3d23aed9f7","0x9130475ef5f099f8071824fcdaba122e31fc191135345dc0303ee647902c82fd","0xaa5e79b420dc747c897872c74f34132d3155f08b604e8d99d3fe01aa19b67b28"]}
+
+2021.05.18:23:51:08.041: eths Eth: Share actual difficulty: 18.9 GH (!)
+2021.05.18:23:51:08.205: eths Eth: Received: {"id":4,"jsonrpc":"2.0","result":true}
+2021.05.18:23:51:08.205: eths Eth: Share accepted in 164 ms
+2021.05.18:23:51:12.605: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xba65e6aff80158a68feab358838305c31fa927c7a0ed77ad2d3cc7f1d00bf89b","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459968}
+2021.05.18:23:51:12.606: eths Eth: New job #ba65e6af from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:51:12.732: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x9ece6773b055abbedff0a076eb1a7b7abf9ffb1db5974f6a5388abb5b66bf652","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459968}
+2021.05.18:23:51:12.732: eths Eth: New job #9ece6773 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:51:12.829: main Eth speed: 44.143 MH/s, shares: 2/0/0, time: 0:07
+2021.05.18:23:51:12.829: main GPUs: 1: 19.607 MH/s (2) 2: 24.536 MH/s (0)
+2021.05.18:23:51:14.076: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:51:14.233: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0x9ece6773b055abbedff0a076eb1a7b7abf9ffb1db5974f6a5388abb5b66bf652","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459968}
+2021.05.18:23:51:17.967: main Eth speed: 44.132 MH/s, shares: 2/0/0, time: 0:07
+2021.05.18:23:51:17.967: main GPUs: 1: 19.596 MH/s (2) 2: 24.536 MH/s (0)
+2021.05.18:23:51:23.101: main Eth speed: 44.095 MH/s, shares: 2/0/0, time: 0:07
+2021.05.18:23:51:23.101: main GPUs: 1: 19.559 MH/s (2) 2: 24.536 MH/s (0)
+2021.05.18:23:51:24.087: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:51:24.087: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","worker":"imsidzluv.001","params":["0x29e543a","0x75a4a78d36e2f223648d44f6ba31d774cf6f8a3de1ba565ea760c21250a49cd0"]}
+
+2021.05.18:23:51:24.244: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0x10f78becb5d3eeba36d36c2d4764c65db562bd872578603c2335c6f06a69a651","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459968}
+2021.05.18:23:51:24.244: eths Eth: New job #10f78bec from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:51:24.244: eths Eth: Received: {"id":6,"jsonrpc":"2.0","result":true}
+2021.05.18:23:51:28.258: main Eth speed: 44.098 MH/s, shares: 2/0/0, time: 0:07
+2021.05.18:23:51:28.258: main GPUs: 1: 19.562 MH/s (2) 2: 24.536 MH/s (0)
+2021.05.18:23:51:31.531: main  
+2021.05.18:23:51:31.531: main *** 0:07 *** 5/18 23:51 **************************************
+2021.05.18:23:51:31.533: main Eth: Mining ETH on ethash.poolbinance.com:1800 for 0:07
+2021.05.18:23:51:31.533: main Eth: Accepted shares 2 (0 stales), rejected shares 0 (0 stales)
+2021.05.18:23:51:31.533: main Eth: Incorrect shares 0 (0.00%), est. stales percentage 0.00% 
+2021.05.18:23:51:31.533: main Eth: Maximum difficulty of found share: 18.9 GH (!)
+2021.05.18:23:51:31.533: main Eth: Average speed (5 min): 43.933 MH/s
+2021.05.18:23:51:31.533: main Eth: Effective speed: 38.09 MH/s; at pool: 38.09 MH/s
+2021.05.18:23:51:31.533: main  
+2021.05.18:23:51:31.974: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xc493cb2850d9c64c905574ce3ef34d381c07a3006baf1c340593e74f77c155ee","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459969}
+2021.05.18:23:51:31.974: eths Eth: New job #c493cb28 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:51:32.101: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xe3988bcf2589c4b55eb2e38d24ba91e245a49f6720a8748f1d7ed67f67c373cb","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459969}
+2021.05.18:23:51:32.101: eths Eth: New job #e3988bcf from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:51:33.191: main GPU1: 100% 66W, GPU2: 100% 106W
+GPUs power: 172.0 W; 256 kH/J
+2021.05.18:23:51:33.394: main Eth speed: 44.172 MH/s, shares: 2/0/0, time: 0:07
+2021.05.18:23:51:33.394: main GPUs: 1: 19.635 MH/s (2) 2: 24.536 MH/s (0)
+2021.05.18:23:51:34.090: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:51:34.247: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0xe3988bcf2589c4b55eb2e38d24ba91e245a49f6720a8748f1d7ed67f67c373cb","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459969}
+2021.05.18:23:51:38.537: main Eth speed: 44.134 MH/s, shares: 2/0/0, time: 0:07
+2021.05.18:23:51:38.537: main GPUs: 1: 19.597 MH/s (2) 2: 24.537 MH/s (0)
+2021.05.18:23:51:41.659: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x5a66f661433118c2a44377a5ff27544b209855acaeac660298db69de3e70c5b3","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459970}
+2021.05.18:23:51:41.659: eths Eth: New job #5a66f661 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:51:41.792: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xe4ea496270baba0be2781526c47396c9d5409220a3f978b55ce5698191eff5c8","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459970}
+2021.05.18:23:51:41.792: eths Eth: New job #e4ea4962 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:51:43.694: main Eth speed: 44.079 MH/s, shares: 2/0/0, time: 0:07
+2021.05.18:23:51:43.694: main GPUs: 1: 19.542 MH/s (2) 2: 24.537 MH/s (0)
+2021.05.18:23:51:44.102: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:51:44.102: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","worker":"imsidzluv.001","params":["0x29e7ad3","0x75a4a78d36e2f223648d44f6ba31d774cf6f8a3de1ba565ea760c21250a49cd0"]}
+
+2021.05.18:23:51:44.259: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0xe4ea496270baba0be2781526c47396c9d5409220a3f978b55ce5698191eff5c8","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459970}
+2021.05.18:23:51:44.259: eths Eth: Received: {"id":6,"jsonrpc":"2.0","result":true}
+2021.05.18:23:51:48.846: main Eth speed: 44.097 MH/s, shares: 2/0/0, time: 0:07
+2021.05.18:23:51:48.846: main GPUs: 1: 19.560 MH/s (2) 2: 24.537 MH/s (0)
+2021.05.18:23:51:53.985: main Eth speed: 44.158 MH/s, shares: 2/0/0, time: 0:07
+2021.05.18:23:51:53.985: main GPUs: 1: 19.621 MH/s (2) 2: 24.537 MH/s (0)
+2021.05.18:23:51:54.111: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:51:54.268: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0xe4ea496270baba0be2781526c47396c9d5409220a3f978b55ce5698191eff5c8","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459970}
+2021.05.18:23:51:59.152: main Eth speed: 44.210 MH/s, shares: 2/0/0, time: 0:07
+2021.05.18:23:51:59.152: main GPUs: 1: 19.673 MH/s (2) 2: 24.537 MH/s (0)
+2021.05.18:23:52:03.451: main GPU1: 100% 68W, GPU2: 100% 106W
+GPUs power: 173.9 W; 254 kH/J
+2021.05.18:23:52:04.119: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:52:04.119: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","worker":"imsidzluv.001","params":["0x29e83f9","0x75a4a78d36e2f223648d44f6ba31d774cf6f8a3de1ba565ea760c21250a49cd0"]}
+
+2021.05.18:23:52:04.276: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0x8b7984617cc75c232b32349748b4e203a316ef185f04a346feb8b9dffa38f995","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459970}
+2021.05.18:23:52:04.276: eths Eth: New job #8b798461 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:52:04.276: eths Eth: Received: {"id":6,"jsonrpc":"2.0","result":true}
+2021.05.18:23:52:04.277: main Eth speed: 44.202 MH/s, shares: 2/0/0, time: 0:08
+2021.05.18:23:52:04.277: main GPUs: 1: 19.665 MH/s (2) 2: 24.537 MH/s (0)
+2021.05.18:23:52:09.421: main Eth speed: 44.201 MH/s, shares: 2/0/0, time: 0:08
+2021.05.18:23:52:09.421: main GPUs: 1: 19.664 MH/s (2) 2: 24.537 MH/s (0)
+2021.05.18:23:52:10.176: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x7fc8e8730236386367870b6b889f25c3fceb045eb439a05ca0e49db6fc12fad3","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459971}
+2021.05.18:23:52:10.176: eths Eth: New job #7fc8e873 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:52:10.306: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xfb92403e5c7b2bd7358e74561a81a0c4353d2c8af217c45fa70030f0ff1c825e","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459971}
+2021.05.18:23:52:10.306: eths Eth: New job #fb92403e from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:52:13.941: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xa6ff731f28f9969b033d3d97e63e92017859752ab1340646cadcf35b7cf2c621","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459972}
+2021.05.18:23:52:13.941: eths Eth: New job #a6ff731f from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:52:14.095: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x7d554cf7137b3dc1c50ab66056f9d23b9f3c1f698e61a64a7b0c8cc1cf4d9447","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459972}
+2021.05.18:23:52:14.096: eths Eth: New job #7d554cf7 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:52:14.131: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:52:14.287: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0x7d554cf7137b3dc1c50ab66056f9d23b9f3c1f698e61a64a7b0c8cc1cf4d9447","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459972}
+2021.05.18:23:52:14.603: main Eth speed: 44.192 MH/s, shares: 2/0/0, time: 0:08
+2021.05.18:23:52:14.603: main GPUs: 1: 19.656 MH/s (2) 2: 24.537 MH/s (0)
+2021.05.18:23:52:14.606: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xf3f886978d63c6f2516122ec45b8f3bd1d78e8d200183fd3c922e2b33d4afe02","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459972}
+2021.05.18:23:52:14.606: eths Eth: New job #f3f88697 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:52:14.740: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x645a3f37e8f437e9d7f7c484e8c607c31e9c8955bd24ca4c08fc8c5dcfc241ff","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459972}
+2021.05.18:23:52:14.740: eths Eth: New job #645a3f37 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:52:16.665: main  
+2021.05.18:23:52:16.665: main *** 0:08 *** 5/18 23:52 **************************************
+2021.05.18:23:52:16.667: main Eth: Mining ETH on ethash.poolbinance.com:1800 for 0:08
+2021.05.18:23:52:16.667: main Eth: Accepted shares 2 (0 stales), rejected shares 0 (0 stales)
+2021.05.18:23:52:16.667: main Eth: Incorrect shares 0 (0.00%), est. stales percentage 0.00% 
+2021.05.18:23:52:16.667: main Eth: Maximum difficulty of found share: 18.9 GH (!)
+2021.05.18:23:52:16.667: main Eth: Average speed (5 min): 43.953 MH/s
+2021.05.18:23:52:16.667: main Eth: Effective speed: 34.64 MH/s; at pool: 34.64 MH/s
+2021.05.18:23:52:16.667: main  
+2021.05.18:23:52:19.761: main Eth speed: 44.188 MH/s, shares: 2/0/0, time: 0:08
+2021.05.18:23:52:19.761: main GPUs: 1: 19.652 MH/s (2) 2: 24.537 MH/s (0)
+2021.05.18:23:52:21.491: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x95cd07cbc027b855ad2b15df8b48b63a7dcb5706c18593458ad3ec4be4596b5f","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459973}
+2021.05.18:23:52:21.492: eths Eth: New job #95cd07cb from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:52:21.633: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x2f3d7fa545290021e73b2fd0999974e587fcf12aa467386d8ead7fb248c264fc","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459973}
+2021.05.18:23:52:21.633: eths Eth: New job #2f3d7fa5 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:52:24.136: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:52:24.136: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","worker":"imsidzluv.001","params":["0x29ec286","0x75a4a78d36e2f223648d44f6ba31d774cf6f8a3de1ba565ea760c21250a49cd0"]}
+
+2021.05.18:23:52:24.292: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0x2f3d7fa545290021e73b2fd0999974e587fcf12aa467386d8ead7fb248c264fc","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459973}
+2021.05.18:23:52:24.293: eths Eth: Received: {"id":6,"jsonrpc":"2.0","result":true}
+2021.05.18:23:52:24.957: main Eth speed: 44.126 MH/s, shares: 2/0/0, time: 0:08
+2021.05.18:23:52:24.957: main GPUs: 1: 19.590 MH/s (2) 2: 24.536 MH/s (0)
+2021.05.18:23:52:27.493: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x2fefdb3f6d04770e21d0984c83117df34aa5bc62a5d10e57fcc1848a849d2bca","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459974}
+2021.05.18:23:52:27.494: eths Eth: New job #2fefdb3f from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:52:27.660: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xbd18ea3b0dcbe59549f9689fe8d104b3cde75c65245845fea1c1345abbd9faaa","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459974}
+2021.05.18:23:52:27.660: eths Eth: New job #bd18ea3b from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:52:30.104: main Eth speed: 44.141 MH/s, shares: 2/0/0, time: 0:08
+2021.05.18:23:52:30.104: main GPUs: 1: 19.604 MH/s (2) 2: 24.537 MH/s (0)
+2021.05.18:23:52:33.601: main GPU1: 100% 66W, GPU2: 100% 106W
+GPUs power: 172.4 W; 256 kH/J
+2021.05.18:23:52:34.138: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:52:34.295: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0xbd18ea3b0dcbe59549f9689fe8d104b3cde75c65245845fea1c1345abbd9faaa","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459974}
+2021.05.18:23:52:35.247: main Eth speed: 43.809 MH/s, shares: 2/0/0, time: 0:08
+2021.05.18:23:52:35.247: main GPUs: 1: 19.272 MH/s (2) 2: 24.537 MH/s (0)
+2021.05.18:23:52:40.383: main Eth speed: 43.399 MH/s, shares: 2/0/0, time: 0:08
+2021.05.18:23:52:40.383: main GPUs: 1: 18.861 MH/s (2) 2: 24.538 MH/s (0)
+2021.05.18:23:52:44.144: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:52:44.145: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","worker":"imsidzluv.001","params":["0x29e410b","0x75a4a78d36e2f223648d44f6ba31d774cf6f8a3de1ba565ea760c21250a49cd0"]}
+
+2021.05.18:23:52:44.301: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0x9020cbd0b2de26fa6100498aa22ebf55a7728f1300a58b759c2a080ac56936e2","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459974}
+2021.05.18:23:52:44.301: eths Eth: New job #9020cbd0 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:52:44.301: eths Eth: Received: {"id":6,"jsonrpc":"2.0","result":true}
+2021.05.18:23:52:45.520: main Eth speed: 43.484 MH/s, shares: 2/0/0, time: 0:08
+2021.05.18:23:52:45.520: main GPUs: 1: 18.947 MH/s (2) 2: 24.537 MH/s (0)
+2021.05.18:23:52:47.825: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xe8ba17e6d6bc29b2e4668535100f61090b72e365b282dcf877304bc61882e215","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459975}
+2021.05.18:23:52:47.825: eths Eth: New job #e8ba17e6 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:52:47.962: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x9819e1e4ca2a2f61fd27226bd04e304083d5689949dde76dcb047bf744b564bf","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459975}
+2021.05.18:23:52:47.962: eths Eth: New job #9819e1e4 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:52:50.678: main Eth speed: 43.888 MH/s, shares: 2/0/0, time: 0:08
+2021.05.18:23:52:50.678: main GPUs: 1: 19.352 MH/s (2) 2: 24.536 MH/s (0)
+2021.05.18:23:52:54.160: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:52:54.317: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0x9819e1e4ca2a2f61fd27226bd04e304083d5689949dde76dcb047bf744b564bf","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459975}
+2021.05.18:23:52:55.828: main Eth speed: 44.097 MH/s, shares: 2/0/0, time: 0:08
+2021.05.18:23:52:55.828: main GPUs: 1: 19.560 MH/s (2) 2: 24.536 MH/s (0)
+2021.05.18:23:53:00.980: main Eth speed: 44.168 MH/s, shares: 2/0/0, time: 0:09
+2021.05.18:23:53:00.980: main GPUs: 1: 19.632 MH/s (2) 2: 24.537 MH/s (0)
+2021.05.18:23:53:01.796: main  
+2021.05.18:23:53:01.796: main *** 0:09 *** 5/18 23:53 **************************************
+2021.05.18:23:53:01.798: main Eth: Mining ETH on ethash.poolbinance.com:1800 for 0:08
+2021.05.18:23:53:01.798: main Eth: Accepted shares 2 (0 stales), rejected shares 0 (0 stales)
+2021.05.18:23:53:01.798: main Eth: Incorrect shares 0 (0.00%), est. stales percentage 0.00% 
+2021.05.18:23:53:01.798: main Eth: Maximum difficulty of found share: 18.9 GH (!)
+2021.05.18:23:53:01.798: main Eth: Average speed (5 min): 43.946 MH/s
+2021.05.18:23:53:01.798: main Eth: Effective speed: 31.76 MH/s; at pool: 31.76 MH/s
+2021.05.18:23:53:01.798: main  
+2021.05.18:23:53:03.680: main GPU1: 100% 65W, GPU2: 100% 106W
+GPUs power: 171.8 W; 257 kH/J
+2021.05.18:23:53:04.167: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:53:04.167: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","worker":"imsidzluv.001","params":["0x29e8ffd","0x75a4a78d36e2f223648d44f6ba31d774cf6f8a3de1ba565ea760c21250a49cd0"]}
+
+2021.05.18:23:53:04.324: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0xd74dcfa8823d3cc3179589660eda06a922667fbc714489bd2c2da5244b0857e2","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459975}
+2021.05.18:23:53:04.324: eths Eth: New job #d74dcfa8 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:53:04.324: eths Eth: Received: {"id":6,"jsonrpc":"2.0","result":true}
+2021.05.18:23:53:06.141: main Eth speed: 44.154 MH/s, shares: 2/0/0, time: 0:09
+2021.05.18:23:53:06.141: main GPUs: 1: 19.617 MH/s (2) 2: 24.537 MH/s (0)
+2021.05.18:23:53:11.289: main Eth speed: 44.156 MH/s, shares: 2/0/0, time: 0:09
+2021.05.18:23:53:11.289: main GPUs: 1: 19.619 MH/s (2) 2: 24.537 MH/s (0)
+2021.05.18:23:53:14.170: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:53:14.327: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0xd74dcfa8823d3cc3179589660eda06a922667fbc714489bd2c2da5244b0857e2","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459975}
+2021.05.18:23:53:16.430: main Eth speed: 44.166 MH/s, shares: 2/0/0, time: 0:09
+2021.05.18:23:53:16.430: main GPUs: 1: 19.629 MH/s (2) 2: 24.537 MH/s (0)
+2021.05.18:23:53:17.913: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xd74dcfa8823d3cc3179589660eda06a922667fbc714489bd2c2da5244b0857e2","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459975}
+2021.05.18:23:53:21.567: main Eth speed: 44.151 MH/s, shares: 2/0/0, time: 0:09
+2021.05.18:23:53:21.567: main GPUs: 1: 19.614 MH/s (2) 2: 24.537 MH/s (0)
+2021.05.18:23:53:24.185: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:53:24.185: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","worker":"imsidzluv.001","params":["0x29ef913","0x75a4a78d36e2f223648d44f6ba31d774cf6f8a3de1ba565ea760c21250a49cd0"]}
+
+2021.05.18:23:53:24.342: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0xf98c15887c7349cd936c6392a03ee9a7e874f408b876c120ff7db50ce8647729","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459975}
+2021.05.18:23:53:24.342: eths Eth: New job #f98c1588 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:53:24.342: eths Eth: Received: {"id":6,"jsonrpc":"2.0","result":true}
+2021.05.18:23:53:26.697: main Eth speed: 43.813 MH/s, shares: 2/0/0, time: 0:09
+2021.05.18:23:53:26.697: main GPUs: 1: 19.276 MH/s (2) 2: 24.537 MH/s (0)
+2021.05.18:23:53:31.842: main Eth speed: 43.755 MH/s, shares: 2/0/0, time: 0:09
+2021.05.18:23:53:31.842: main GPUs: 1: 19.225 MH/s (2) 2: 24.529 MH/s (0)
+2021.05.18:23:53:33.890: main GPU1: 100% 67W, GPU2: 100% 106W
+GPUs power: 173.3 W; 252 kH/J
+2021.05.18:23:53:34.191: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:53:34.348: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0xf98c15887c7349cd936c6392a03ee9a7e874f408b876c120ff7db50ce8647729","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459975}
+2021.05.18:23:53:36.891: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xf0ed42bd5492626ef0df274a21158baf400ea7d24a7d545aba7ec23f7d72cdd0","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459976}
+2021.05.18:23:53:36.891: eths Eth: New job #f0ed42bd from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:53:36.972: main Eth speed: 43.673 MH/s, shares: 2/0/0, time: 0:09
+2021.05.18:23:53:36.972: main GPUs: 1: 19.218 MH/s (2) 2: 24.455 MH/s (0)
+2021.05.18:23:53:37.033: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x55f9a98ee5373ad92c98ef4a21f2facddd2d24dede77672d9f7e6705a97ee5ea","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459976}
+2021.05.18:23:53:37.033: eths Eth: New job #55f9a98e from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:53:42.039: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xa2189e3a612ba3a86a5774940ea70981524d6359992cd801edffb2f6b65b1c07","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459977}
+2021.05.18:23:53:42.040: eths Eth: New job #a2189e3a from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:53:42.113: main Eth speed: 43.807 MH/s, shares: 2/0/0, time: 0:09
+2021.05.18:23:53:42.113: main GPUs: 1: 19.352 MH/s (2) 2: 24.455 MH/s (0)
+2021.05.18:23:53:42.173: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x1adf7673e7e9557608250b28880259aba6dce9666869c9e21efbe416491b5d9e","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459977}
+2021.05.18:23:53:42.173: eths Eth: New job #1adf7673 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:53:44.192: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:53:44.192: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","worker":"imsidzluv.001","params":["0x29eec4e","0x75a4a78d36e2f223648d44f6ba31d774cf6f8a3de1ba565ea760c21250a49cd0"]}
+
+2021.05.18:23:53:44.349: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0x1adf7673e7e9557608250b28880259aba6dce9666869c9e21efbe416491b5d9e","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459977}
+2021.05.18:23:53:44.349: eths Eth: Received: {"id":6,"jsonrpc":"2.0","result":true}
+2021.05.18:23:53:46.808: main  
+2021.05.18:23:53:46.808: main *** 0:09 *** 5/18 23:53 **************************************
+2021.05.18:23:53:46.808: main Eth: Mining ETH on ethash.poolbinance.com:1800 for 0:09
+2021.05.18:23:53:46.808: main Eth: Accepted shares 2 (0 stales), rejected shares 0 (0 stales)
+2021.05.18:23:53:46.808: main Eth: Incorrect shares 0 (0.00%), est. stales percentage 0.00% 
+2021.05.18:23:53:46.808: main Eth: Maximum difficulty of found share: 18.9 GH (!)
+2021.05.18:23:53:46.808: main Eth: Average speed (5 min): 43.970 MH/s
+2021.05.18:23:53:46.808: main Eth: Effective speed: 29.32 MH/s; at pool: 29.32 MH/s
+2021.05.18:23:53:46.808: main  
+2021.05.18:23:53:47.223: main Eth speed: 43.687 MH/s, shares: 2/0/0, time: 0:09
+2021.05.18:23:53:47.223: main GPUs: 1: 19.224 MH/s (2) 2: 24.463 MH/s (0)
+2021.05.18:23:53:52.385: main Eth speed: 43.903 MH/s, shares: 2/0/0, time: 0:09
+2021.05.18:23:53:52.385: main GPUs: 1: 19.365 MH/s (2) 2: 24.538 MH/s (0)
+2021.05.18:23:53:54.206: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:53:54.362: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0x1adf7673e7e9557608250b28880259aba6dce9666869c9e21efbe416491b5d9e","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459977}
+2021.05.18:23:53:57.538: main Eth speed: 44.041 MH/s, shares: 2/0/0, time: 0:09
+2021.05.18:23:53:57.538: main GPUs: 1: 19.504 MH/s (2) 2: 24.537 MH/s (0)
+2021.05.18:23:53:59.721: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x846f4229b52f988791c9076e72695d87525167264a5d6b59fbd6d98dc1a22206","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459978}
+2021.05.18:23:53:59.722: eths Eth: New job #846f4229 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:53:59.843: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x4946bf320daf650a32bc8bf385b04ce107b5310728357e98d4ebd44ea93612c2","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459978}
+2021.05.18:23:53:59.843: eths Eth: New job #4946bf32 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:54:02.489: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x601f93c6ee6f07345c7df3dc3ed938ee01b58a3b393aef13c721d50de8a3ca19","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459979}
+2021.05.18:23:54:02.489: eths Eth: New job #601f93c6 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:54:02.649: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x2eb84fb2a74ff213c4ca98573c722935ad3c3aed2f8b7f85aebadcc4d24c9bcd","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459979}
+2021.05.18:23:54:02.649: eths Eth: New job #2eb84fb2 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:54:02.982: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x03cde1ba7d84977b90ba292726cd2e464d139f3bc42af809b3825415f7a58a55","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459980}
+2021.05.18:23:54:02.982: eths Eth: New job #03cde1ba from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:54:03.141: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x3dc95491eb2444becf61a51cfff676ba8be5a0471a8f0f45ae010d503a12349a","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459980}
+2021.05.18:23:54:03.141: eths Eth: New job #3dc95491 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:54:03.149: main Eth speed: 44.077 MH/s, shares: 2/0/0, time: 0:10
+2021.05.18:23:54:03.149: main GPUs: 1: 19.538 MH/s (2) 2: 24.540 MH/s (0)
+2021.05.18:23:54:04.180: main GPU1: 100% 68W, GPU2: 100% 106W
+GPUs power: 174.2 W; 253 kH/J
+2021.05.18:23:54:04.207: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:54:04.207: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","worker":"imsidzluv.001","params":["0x29f26fd","0x75a4a78d36e2f223648d44f6ba31d774cf6f8a3de1ba565ea760c21250a49cd0"]}
+
+2021.05.18:23:54:04.364: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0x3dc95491eb2444becf61a51cfff676ba8be5a0471a8f0f45ae010d503a12349a","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459980}
+2021.05.18:23:54:04.364: eths Eth: Received: {"id":6,"jsonrpc":"2.0","result":true}
+2021.05.18:23:54:05.357: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x3a61a4eebaca35f629e4f1a2b5752d9b4f749b4cf6585998c524eb8c216fff7f","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459981}
+2021.05.18:23:54:05.357: eths Eth: New job #3a61a4ee from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:54:05.533: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x1169bb768a2db610568a3f7062fa2ec671866a5b6b4d9ed0ffc5203be622d795","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459981}
+2021.05.18:23:54:05.533: eths Eth: New job #1169bb76 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:54:07.267: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x9399c00bcd9a7880758e3c2c4d20e0872150be8a29ded9aa9588591ba25bc79e","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459982}
+2021.05.18:23:54:07.268: eths Eth: New job #9399c00b from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:54:07.425: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x592d1b6f943a9b860107cd867e952bd6ec539a6222ac32cc53267806f6ba458a","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459982}
+2021.05.18:23:54:07.425: eths Eth: New job #592d1b6f from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:54:08.306: main Eth speed: 43.869 MH/s, shares: 2/0/0, time: 0:10
+2021.05.18:23:54:08.306: main GPUs: 1: 19.333 MH/s (2) 2: 24.536 MH/s (0)
+2021.05.18:23:54:09.798: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x167afe545dc14dc828cead027e564827b229001c867dcd2d3ebc72bd6dbef1d7","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459983}
+2021.05.18:23:54:09.798: eths Eth: New job #167afe54 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:54:09.940: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xdb0f774c9a56529a835965929456bff4d4c1207b02d5b4673dd629bed67f16c5","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459983}
+2021.05.18:23:54:09.940: eths Eth: New job #db0f774c from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:54:13.436: main Eth speed: 43.728 MH/s, shares: 2/0/0, time: 0:10
+2021.05.18:23:54:13.436: main GPUs: 1: 19.191 MH/s (2) 2: 24.537 MH/s (0)
+2021.05.18:23:54:14.214: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:54:14.371: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0xdb0f774c9a56529a835965929456bff4d4c1207b02d5b4673dd629bed67f16c5","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459983}
+2021.05.18:23:54:18.575: main Eth speed: 43.970 MH/s, shares: 2/0/0, time: 0:10
+2021.05.18:23:54:18.575: main GPUs: 1: 19.433 MH/s (2) 2: 24.537 MH/s (0)
+2021.05.18:23:54:19.096: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xb346ad9bbed6fea4d93112e2048d050f1b59799619ab37191969eb0689a29023","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459984}
+2021.05.18:23:54:19.096: eths Eth: New job #b346ad9b from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:54:19.211: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xa5ab3f64e59cd5bd11c3235b06ee7085bbc44957d67a89adaf2594e5baacfd1b","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459984}
+2021.05.18:23:54:19.211: eths Eth: New job #a5ab3f64 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:54:23.736: main Eth speed: 44.229 MH/s, shares: 2/0/0, time: 0:10
+2021.05.18:23:54:23.736: main GPUs: 1: 19.692 MH/s (2) 2: 24.537 MH/s (0)
+2021.05.18:23:54:24.226: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:54:24.226: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","worker":"imsidzluv.001","params":["0x29f120a","0x75a4a78d36e2f223648d44f6ba31d774cf6f8a3de1ba565ea760c21250a49cd0"]}
+
+2021.05.18:23:54:24.382: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0xa5ab3f64e59cd5bd11c3235b06ee7085bbc44957d67a89adaf2594e5baacfd1b","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459984}
+2021.05.18:23:54:24.383: eths Eth: Received: {"id":6,"jsonrpc":"2.0","result":true}
+2021.05.18:23:54:28.875: main Eth speed: 44.282 MH/s, shares: 2/0/0, time: 0:10
+2021.05.18:23:54:28.875: main GPUs: 1: 19.745 MH/s (2) 2: 24.537 MH/s (0)
+2021.05.18:23:54:31.951: main  
+2021.05.18:23:54:31.951: main *** 0:10 *** 5/18 23:54 **************************************
+2021.05.18:23:54:31.952: main Eth: Mining ETH on ethash.poolbinance.com:1800 for 0:10
+2021.05.18:23:54:31.952: main Eth: Accepted shares 2 (0 stales), rejected shares 0 (0 stales)
+2021.05.18:23:54:31.952: main Eth: Incorrect shares 0 (0.00%), est. stales percentage 0.00% 
+2021.05.18:23:54:31.952: main Eth: Maximum difficulty of found share: 18.9 GH (!)
+2021.05.18:23:54:31.952: main Eth: Average speed (5 min): 43.981 MH/s
+2021.05.18:23:54:31.952: main Eth: Effective speed: 27.23 MH/s; at pool: 27.23 MH/s
+2021.05.18:23:54:31.952: main  
+2021.05.18:23:54:34.022: main Eth speed: 44.178 MH/s, shares: 2/0/0, time: 0:10
+2021.05.18:23:54:34.022: main GPUs: 1: 19.642 MH/s (2) 2: 24.537 MH/s (0)
+2021.05.18:23:54:34.229: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:54:34.229: main GPU1: 100% 68W, GPU2: 100% 106W
+GPUs power: 174.0 W; 254 kH/J
+2021.05.18:23:54:34.385: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0xa5ab3f64e59cd5bd11c3235b06ee7085bbc44957d67a89adaf2594e5baacfd1b","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459984}
+2021.05.18:23:54:34.477: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xd22de0b914c9ab4c632c50d7aa6f04aac867c5f883634c14e1d4390e1a6765b0","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459985}
+2021.05.18:23:54:34.477: eths Eth: New job #d22de0b9 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:54:34.576: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x8da54ca731054362ef3f2c241e2bff72ded48b120481044a732073d20c7b7c17","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459985}
+2021.05.18:23:54:34.576: eths Eth: New job #8da54ca7 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:54:39.185: main Eth speed: 44.106 MH/s, shares: 2/0/0, time: 0:10
+2021.05.18:23:54:39.185: main GPUs: 1: 19.571 MH/s (2) 2: 24.535 MH/s (0)
+2021.05.18:23:54:41.632: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x01d1329d9eb5c4a325a0e3e6aff8073199f9efa30ffe235a5e88f7133c5d46eb","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459986}
+2021.05.18:23:54:41.633: eths Eth: New job #01d1329d from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:54:41.786: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x7b6e620c26e4a7d301963aac84b98f1e76f746f2b91d919013d7a9dadffa96c2","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459986}
+2021.05.18:23:54:41.786: eths Eth: New job #7b6e620c from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:54:44.232: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:54:44.232: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","worker":"imsidzluv.001","params":["0x29f4199","0x75a4a78d36e2f223648d44f6ba31d774cf6f8a3de1ba565ea760c21250a49cd0"]}
+
+2021.05.18:23:54:44.324: main Eth speed: 44.037 MH/s, shares: 2/0/0, time: 0:10
+2021.05.18:23:54:44.324: main GPUs: 1: 19.500 MH/s (2) 2: 24.537 MH/s (0)
+2021.05.18:23:54:44.388: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0x7b6e620c26e4a7d301963aac84b98f1e76f746f2b91d919013d7a9dadffa96c2","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459986}
+2021.05.18:23:54:44.388: eths Eth: Received: {"id":6,"jsonrpc":"2.0","result":true}
+2021.05.18:23:54:49.455: main Eth speed: 43.992 MH/s, shares: 2/0/0, time: 0:10
+2021.05.18:23:54:49.455: main GPUs: 1: 19.454 MH/s (2) 2: 24.537 MH/s (0)
+2021.05.18:23:54:50.664: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x1f206334aa2725b08016aaf6e58992585e219392dd76e903d1e797ea686a14c4","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459987}
+2021.05.18:23:54:50.664: eths Eth: New job #1f206334 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:54:50.802: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x4bfb8f190b308da8b29c420210ab5100434352b0dd7a5fe750a7e58558db4e51","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459987}
+2021.05.18:23:54:50.802: eths Eth: New job #4bfb8f19 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:54:51.709: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x3bcc4777b0e7cc72a23ce050779396c9ca9895619ebb3933b74bbf515ba716d3","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459987}
+2021.05.18:23:54:51.709: eths Eth: New job #3bcc4777 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:54:51.838: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x89c64ac55b9a39dd026d7d59cb3c827f29b534ed62a678db62fa86096b4a4621","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459987}
+2021.05.18:23:54:51.838: eths Eth: New job #89c64ac5 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:54:54.234: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:54:54.391: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0x89c64ac55b9a39dd026d7d59cb3c827f29b534ed62a678db62fa86096b4a4621","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459987}
+2021.05.18:23:54:54.582: main Eth speed: 43.802 MH/s, shares: 2/0/0, time: 0:10
+2021.05.18:23:54:54.582: main GPUs: 1: 19.265 MH/s (2) 2: 24.537 MH/s (0)
+2021.05.18:23:54:59.727: main Eth speed: 43.791 MH/s, shares: 2/0/0, time: 0:10
+2021.05.18:23:54:59.727: main GPUs: 1: 19.254 MH/s (2) 2: 24.537 MH/s (0)
+2021.05.18:23:55:04.239: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:55:04.239: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","worker":"imsidzluv.001","params":["0x29f2f19","0x75a4a78d36e2f223648d44f6ba31d774cf6f8a3de1ba565ea760c21250a49cd0"]}
+
+2021.05.18:23:55:04.395: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0xd5c86f5649380fec9fecb91b1761526b06d2b73c973d22d063f784fdf22812df","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459987}
+2021.05.18:23:55:04.396: eths Eth: New job #d5c86f56 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:55:04.396: eths Eth: Received: {"id":6,"jsonrpc":"2.0","result":true}
+2021.05.18:23:55:04.862: main Eth speed: 43.952 MH/s, shares: 2/0/0, time: 0:11
+2021.05.18:23:55:04.862: main GPUs: 1: 19.415 MH/s (2) 2: 24.537 MH/s (0)
+2021.05.18:23:55:04.862: main GPU1: 100% 68W, GPU2: 100% 106W
+GPUs power: 174.2 W; 252 kH/J
+2021.05.18:23:55:10.009: main Eth speed: 44.158 MH/s, shares: 2/0/0, time: 0:11
+2021.05.18:23:55:10.009: main GPUs: 1: 19.621 MH/s (2) 2: 24.536 MH/s (0)
+2021.05.18:23:55:14.246: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:55:14.402: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0xd5c86f5649380fec9fecb91b1761526b06d2b73c973d22d063f784fdf22812df","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459987}
+2021.05.18:23:55:15.151: main Eth speed: 44.174 MH/s, shares: 2/0/0, time: 0:11
+2021.05.18:23:55:15.151: main GPUs: 1: 19.637 MH/s (2) 2: 24.537 MH/s (0)
+2021.05.18:23:55:17.009: main  
+2021.05.18:23:55:17.009: main *** 0:11 *** 5/18 23:55 **************************************
+2021.05.18:23:55:17.010: main Eth: Mining ETH on ethash.poolbinance.com:1800 for 0:11
+2021.05.18:23:55:17.010: main Eth: Accepted shares 2 (0 stales), rejected shares 0 (0 stales)
+2021.05.18:23:55:17.010: main Eth: Incorrect shares 0 (0.00%), est. stales percentage 0.00% 
+2021.05.18:23:55:17.010: main Eth: Maximum difficulty of found share: 18.9 GH (!)
+2021.05.18:23:55:17.010: main Eth: Average speed (5 min): 43.999 MH/s
+2021.05.18:23:55:17.010: main Eth: Effective speed: 25.41 MH/s; at pool: 25.41 MH/s
+2021.05.18:23:55:17.010: main  
+2021.05.18:23:55:20.299: main Eth speed: 44.115 MH/s, shares: 2/0/0, time: 0:11
+2021.05.18:23:55:20.299: main GPUs: 1: 19.578 MH/s (2) 2: 24.537 MH/s (0)
+2021.05.18:23:55:21.803: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xd5c86f5649380fec9fecb91b1761526b06d2b73c973d22d063f784fdf22812df","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459987}
+2021.05.18:23:55:24.257: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:55:24.258: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","worker":"imsidzluv.001","params":["0x29f4cdc","0x75a4a78d36e2f223648d44f6ba31d774cf6f8a3de1ba565ea760c21250a49cd0"]}
+
+2021.05.18:23:55:24.416: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0xd5c86f5649380fec9fecb91b1761526b06d2b73c973d22d063f784fdf22812df","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459987}
+2021.05.18:23:55:24.416: eths Eth: Received: {"id":6,"jsonrpc":"2.0","result":true}
+2021.05.18:23:55:25.446: main Eth speed: 44.144 MH/s, shares: 2/0/0, time: 0:11
+2021.05.18:23:55:25.446: main GPUs: 1: 19.607 MH/s (2) 2: 24.537 MH/s (0)
+2021.05.18:23:55:30.595: main Eth speed: 44.115 MH/s, shares: 2/0/0, time: 0:11
+2021.05.18:23:55:30.595: main GPUs: 1: 19.579 MH/s (2) 2: 24.537 MH/s (0)
+2021.05.18:23:55:34.265: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:55:34.422: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0xd5c86f5649380fec9fecb91b1761526b06d2b73c973d22d063f784fdf22812df","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459987}
+2021.05.18:23:55:34.723: main GPU1: 100% 68W, GPU2: 100% 106W
+GPUs power: 174.0 W; 254 kH/J
+2021.05.18:23:55:35.752: main Eth speed: 44.184 MH/s, shares: 2/0/0, time: 0:11
+2021.05.18:23:55:35.752: main GPUs: 1: 19.647 MH/s (2) 2: 24.538 MH/s (0)
+2021.05.18:23:55:40.887: main Eth speed: 44.165 MH/s, shares: 2/0/0, time: 0:11
+2021.05.18:23:55:40.887: main GPUs: 1: 19.627 MH/s (2) 2: 24.537 MH/s (0)
+2021.05.18:23:55:44.271: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:55:44.272: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","worker":"imsidzluv.001","params":["0x29fe0ec","0x75a4a78d36e2f223648d44f6ba31d774cf6f8a3de1ba565ea760c21250a49cd0"]}
+
+2021.05.18:23:55:44.428: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0x1c491cd096f3ff569a7501cbd0472bc5df6efb11b472b41a678e6a65ddbfd9b3","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459987}
+2021.05.18:23:55:44.428: eths Eth: New job #1c491cd0 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:55:44.428: eths Eth: Received: {"id":6,"jsonrpc":"2.0","result":true}
+2021.05.18:23:55:46.050: main Eth speed: 44.037 MH/s, shares: 2/0/0, time: 0:11
+2021.05.18:23:55:46.050: main GPUs: 1: 19.500 MH/s (2) 2: 24.537 MH/s (0)
+2021.05.18:23:55:47.082: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x9cd470babfa61b651b9a23b6d68ab67d9f13efd9fd518b60664434e1384f77cc","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459988}
+2021.05.18:23:55:47.082: eths Eth: New job #9cd470ba from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:55:47.761: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xdf5447742ea9e47d280dd30f3465305959fca3b412566f3aedbf617aa1f70b82","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459988}
+2021.05.18:23:55:47.761: eths Eth: New job #df544774 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:55:51.221: main Eth speed: 43.726 MH/s, shares: 2/0/0, time: 0:11
+2021.05.18:23:55:51.221: main GPUs: 1: 19.188 MH/s (2) 2: 24.538 MH/s (0)
+2021.05.18:23:55:53.011: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x381fb552d4a74028af3513f2f4fecec1a8ddc6751e9717b83cc5fe08b157abd3","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459989}
+2021.05.18:23:55:53.011: eths Eth: New job #381fb552 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:55:53.163: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xbc8d3c514fed0261aadd5c4086d42727bd82fe98dec735d889edaa22fc99d756","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459989}
+2021.05.18:23:55:53.163: eths Eth: New job #bc8d3c51 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:55:54.287: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:55:54.443: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0xbc8d3c514fed0261aadd5c4086d42727bd82fe98dec735d889edaa22fc99d756","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459989}
+2021.05.18:23:55:56.352: main Eth speed: 43.716 MH/s, shares: 2/0/0, time: 0:11
+2021.05.18:23:55:56.352: main GPUs: 1: 19.179 MH/s (2) 2: 24.537 MH/s (0)
+2021.05.18:23:56:01.496: main Eth speed: 43.627 MH/s, shares: 2/0/0, time: 0:12
+2021.05.18:23:56:01.496: main GPUs: 1: 19.090 MH/s (2) 2: 24.537 MH/s (0)
+2021.05.18:23:56:02.114: main  
+2021.05.18:23:56:02.114: main *** 0:12 *** 5/18 23:56 **************************************
+2021.05.18:23:56:02.115: main Eth: Mining ETH on ethash.poolbinance.com:1800 for 0:11
+2021.05.18:23:56:02.115: main Eth: Accepted shares 2 (0 stales), rejected shares 0 (0 stales)
+2021.05.18:23:56:02.115: main Eth: Incorrect shares 0 (0.00%), est. stales percentage 0.00% 
+2021.05.18:23:56:02.115: main Eth: Maximum difficulty of found share: 18.9 GH (!)
+2021.05.18:23:56:02.115: main Eth: Average speed (5 min): 44.011 MH/s
+2021.05.18:23:56:02.115: main Eth: Effective speed: 23.83 MH/s; at pool: 23.83 MH/s
+2021.05.18:23:56:02.115: main  
+2021.05.18:23:56:02.911: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x06162353a95d400897cb06e9b605f5d13f221dee5293ab0eefbe84fe738de56c","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459990}
+2021.05.18:23:56:02.911: eths Eth: New job #06162353 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:56:03.065: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x5faa825566d4da24771c866f9c98d27ae70b281d35418b6c04cafe1ebef662ca","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459990}
+2021.05.18:23:56:03.066: eths Eth: New job #5faa8255 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:56:04.289: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:56:04.289: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","worker":"imsidzluv.001","params":["0x29f871d","0x75a4a78d36e2f223648d44f6ba31d774cf6f8a3de1ba565ea760c21250a49cd0"]}
+
+2021.05.18:23:56:04.446: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0x5faa825566d4da24771c866f9c98d27ae70b281d35418b6c04cafe1ebef662ca","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459990}
+2021.05.18:23:56:04.446: eths Eth: Received: {"id":6,"jsonrpc":"2.0","result":true}
+2021.05.18:23:56:04.757: main GPU1: 100% 68W, GPU2: 100% 106W
+GPUs power: 174.1 W; 251 kH/J
+2021.05.18:23:56:06.612: main Eth speed: 43.832 MH/s, shares: 2/0/0, time: 0:12
+2021.05.18:23:56:06.612: main GPUs: 1: 19.295 MH/s (2) 2: 24.537 MH/s (0)
+2021.05.18:23:56:08.424: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0x6f900b70ec5ac2e3d9cc283f98db40a279ca0ee51038d49dda785e6583758caf","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459991}
+2021.05.18:23:56:08.424: eths Eth: New job #6f900b70 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:56:08.561: eths Eth: Received: {"id":0,"jsonrpc":"2.0","result":["0xafa8e1e8577240bbee3c7b1ad78c571de1cb41038254806254e1f8efaa1f2f5f","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459991}
+2021.05.18:23:56:08.561: eths Eth: New job #afa8e1e8 from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:56:11.734: main Eth speed: 43.549 MH/s, shares: 2/0/0, time: 0:12
+2021.05.18:23:56:11.734: main GPUs: 1: 19.014 MH/s (2) 2: 24.535 MH/s (0)
+2021.05.18:23:56:14.300: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:56:14.457: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0xafa8e1e8577240bbee3c7b1ad78c571de1cb41038254806254e1f8efaa1f2f5f","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459991}
+2021.05.18:23:56:16.881: main Eth speed: 43.678 MH/s, shares: 2/0/0, time: 0:12
+2021.05.18:23:56:16.881: main GPUs: 1: 19.141 MH/s (2) 2: 24.537 MH/s (0)
+2021.05.18:23:56:22.035: main Eth speed: 43.820 MH/s, shares: 2/0/0, time: 0:12
+2021.05.18:23:56:22.035: main GPUs: 1: 19.284 MH/s (2) 2: 24.537 MH/s (0)
+2021.05.18:23:56:24.305: eths Eth: Send: {"id":5,"jsonrpc":"2.0","method":"eth_getWork","worker":"imsidzluv.001","params":[]}
+
+2021.05.18:23:56:24.305: eths Eth: Send: {"id":6,"jsonrpc":"2.0","method":"eth_submitHashrate","worker":"imsidzluv.001","params":["0x29f3346","0x75a4a78d36e2f223648d44f6ba31d774cf6f8a3de1ba565ea760c21250a49cd0"]}
+
+2021.05.18:23:56:24.462: eths Eth: Received: {"id":5,"jsonrpc":"2.0","result":["0x95b22d3c4cd6076e92449854295fd4bad9ff332525a837086677ba3799fdafa0","0x3646e1f9abad7750d559c03326ae5841c98e2fff3ee4ef7e1bc354b4499c946d","0x007fffffffffffffffffffffffffffffffffffffffffffffffffffffff","074b24"],"height":12459991}
+2021.05.18:23:56:24.462: eths Eth: New job #95b22d3c from ethash.poolbinance.com:1800; diff: 8589MH
+2021.05.18:23:56:24.462: eths Eth: Received: {"id":6,"jsonrpc":"2.0","result":true}
+2021.05.18:23:56:27.195: main Eth speed: 44.154 MH/s, shares: 2/0/0, time: 0:12
+2021.05.18:23:56:27.195: main GPUs: 1: 19.616 MH/s (2) 2: 24.537 MH/s (0)
+2021.05.18:23:56:28.745: unkn Quitting...
+2021.05.18:23:56:29.731: wdog Stopping watchdog thread
+2021.05.18:23:56:29.734: main Exit code: 0
